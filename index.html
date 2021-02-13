@@ -7,39 +7,76 @@
 </head>
 
 <body>
-    <!--header section logo and navigation elements-->
-    <header>
+    <div id="main_wrapper">
+    <!--header section:  logo + navigation elements-->
+        <header>
+            <div id="logo">
+                <p><img src="#" alt="Logo Reservia"/></p>
+            </div>
+            <nav id="main_nav">
+                <ul>
+                    <li><a href="#">Hébergements</a></li>
+                    <li><a href="#">Activités</a></li>
+                    <li><a href="#">S'inscrire</a></li>
+                </ul>
+            </nav>
+        </header>
 
-    </header>
+        <!--search section: h1 + p + search zone + filters zone + p number of result. 
+            I added id to some unique divs (form et button) because even if there's no other search sections here, 
+            the site might envolve and then it would be necessary to havec ids for each search form -->
+        <section id="search_area">
+            
+            <div id="search_header">
+                <h1>Trouvez votre hébergement pour des vacances de rêves</h1>
+                <p>En plein centre ville ou en pleine nature</p>
+            </div>
 
-    <!--search section with h1 and p and research zone and filters zone and number of results paragraph-->
+            <div id="search_input">
+                <img id="loc_icon" src="#" alt="Localisation"/>
+                <form id="main_form" method="post" action="xxx.php">
+                    <p>	
+                        <input id="city_search" type="search" placeholder="search" value="Marseille, France">
+                    </p>
+                </form>
+                <button id="main_button" type="submit" form="main_form" value="rechercher">Rechercher</button>
+            </div>
+            
+            <div id="search_filters">
+                <h2>Filtres</h2>
+                <p><img id="eco_icon" src="#" alt="Économique"/>Économique</p>
+                <p><img id="fam_icon" src="#" alt="Familial"/>Familial</p>
+                <p><img id="rom_icon" src="#" alt="Romantique"/>Romantique</p>
+                <p><img id="anim_icon" src="#" alt="Animaux autorisés"/>Animaux autorisés</p>
+            </div>
+            <div id="number_results">
+                <img id="infos_icon" src="#" alt="infos"/>
+                <p>Plus de 500 logements sont disponibles dans cette ville</p>
+            </div>
+        </section>
 
-    <section>
+        <!--results section with h1 and several articles and a p and an aside zone 'plus populaires' -->
 
-    </section>
+        <section>
 
-    <!--results section with h1 and several articles and a p and an aside zone 'plus populaires' -->
+        </section>
 
-    <section>
+        <!--activities section-->
 
-    </section>
+        <section>
 
-    <!--activities section-->
+        </section>
 
-    <section>
+        <!--footer section with three lists div-->
 
-    </section>
+        <footer>
 
-    <!--footer section with three lists div-->
-
-    <footer>
-
-    </footer>
+        </footer>
 
 
 
 
-
+    </div>
 </body>
 
 </html>
