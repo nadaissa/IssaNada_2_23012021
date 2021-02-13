@@ -1,0 +1,98 @@
+#main_wrapper {
+    background-color: burlywood;
+    border: solid black;
+    width: auto;
+}
+
+header{
+    background-color: cadetblue;
+    border: solid black;
+}
+
+#logo, #main_nav, #sign_up{
+    border: solid blue 2px;
+}
+
+
+#search_area{
+    background-color: coral;
+    border: solid black;
+}
+
+#search_header{
+    border: solid blue 2px;
+}
+
+#search_container{
+    border: solid blue 2px;
+}
+
+#search_filters{
+    border: solid blue 2px;
+}
+#number_results{
+    border: solid blue 2px;
+}
+#results_display{
+    background-color: cadetblue;
+    border: solid black;
+}
+
+#results_container{
+    border: solid red 2px;
+}
+
+.result_bubble{
+    border: solid red 2px;
+}
+
+#more_results{
+    border: solid red 2px;
+}
+
+aside{
+    border: solid tomato 2px;
+}
+#pop_header{
+    border: solid blue 2px;
+}
+#pop_main{
+    border: solid blue 2px;
+}
+.pop_bubble{
+    border: solid blue 2px;
+}
+
+#activies_section{
+    background-color: coral;
+    border: solid black;
+}
+
+#activies_section h1{
+    border: solid blue 2px;
+}
+#act_container{
+    border: solid blue 2px;
+}
+
+.act_bubble{
+    border: solid blue 2px;
+}
+
+
+footer{
+    background-color: cadetblue;
+    border: solid black;
+}
+
+#about_container{
+    border: solid blueviolet 2px;
+}
+
+#firm_container{
+    border: solid blueviolet 2px;
+}
+
+#help_container{
+    border: solid blueviolet 2px;
+}
