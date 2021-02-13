@@ -22,9 +22,7 @@
             </nav>
         </header>
 
-        <!--search section: h1 + p + search zone + filters zone + p number of result. 
-            I added id to some unique divs (form et button) because even if there's no other search sections here, 
-            the site might envolve and then it would be necessary to havec ids for each search form -->
+        <!--search section: h1 + p + search zone + filters zone + p number of result-->
         <section id="search_area">
             
             <div id="search_header">
@@ -32,32 +30,38 @@
                 <p>En plein centre ville ou en pleine nature</p>
             </div>
 
-            <div id="search_input">
-                <img id="loc_icon" src="#" alt="Localisation"/>
+            <div id="search_container">
                 <form id="main_form" method="post" action="xxx.php">
-                    <p>	
-                        <input id="city_search" type="search" placeholder="search" value="Marseille, France">
-                    </p>
+                    <i class="#"></i>
+                    <input type="search" placeholder="Rechercher.." value="Marseille, France">
+                    <button type="submit">Rechercher</button>
                 </form>
-                <button id="main_button" type="submit" form="main_form" value="rechercher">Rechercher</button>
             </div>
             
             <div id="search_filters">
                 <h2>Filtres</h2>
-                <p><img id="eco_icon" src="#" alt="Économique"/>Économique</p>
-                <p><img id="fam_icon" src="#" alt="Familial"/>Familial</p>
-                <p><img id="rom_icon" src="#" alt="Romantique"/>Romantique</p>
-                <p><img id="anim_icon" src="#" alt="Animaux autorisés"/>Animaux autorisés</p>
+                <div id="filters_container">
+                    <button class="filter_btn"><i class="#"></i>Économique</button>
+                    <button class="filter_btn"><i class="#"></i>Familial</button>
+                    <button class="filter_btn"><i class="#"></i>Romantique</button>
+                    <button class="filter_btn"><i class="#"></i>Animaux autorisés</button>
+                </div>
             </div>
             <div id="number_results">
-                <img id="infos_icon" src="#" alt="infos"/>
-                <p>Plus de 500 logements sont disponibles dans cette ville</p>
+                <p><i class="#"></i>Plus de 500 logements sont disponibles dans cette ville</p>
             </div>
         </section>
 
-        <!--results section with h1 and several articles and a p and an aside zone 'plus populaires' -->
+        <!--results section: h1 + article zone + aside zone -->
+        <section id="results_view">
+            <article>
+                <h1></h1>
+                
 
-        <section>
+            </article>
+            <aside>
+
+            </aside>
 
         </section>
 
