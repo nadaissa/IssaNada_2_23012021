@@ -38,6 +38,10 @@ header{
     border: solid black;
 }
 
+#main_results{
+    border: solid red 2px;
+}
+
 #results_container{
     border: solid red 2px;
 }
