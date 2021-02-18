@@ -14,18 +14,45 @@ body{
     padding: 0px;
 }
 
-
+/* main wr delete background color border after final styling*/
 #main_wrapper {
     background-color: burlywood;
     border: solid black;
     width: auto;
+    margin: auto;
 }
 
+/*add general styling for common elements here before header (classes)*/
+
+
+
+/*Header delete background color border after final styling*/
 header{
     background-color: cadetblue;
     border: solid black;
+    margin: 5px 25px 5px 25px;
+    display: flex;
+    justify-content: space-between;
 }
 
+#nav_n_sign{
+    display: flex;
+    justify-content: space-around;
+}
+
+#main_nav{
+    margin-right: 50px; 
+}
+
+nav ul{
+    list-style-type: none;
+    display: flex;
+    justify-content:left;
+    align-content: space-between;
+    padding-left: 0px;
+    
+}
+/*delete border or all following rule when done*/
 #logo, #main_nav, #sign_up{
     border: solid blue 2px;
 }
@@ -34,6 +61,7 @@ header{
 #search_area{
     background-color: coral;
     border: solid black;
+    margin: 5px 25px 5px 25px;
 }
 
 #search_header{
@@ -53,6 +81,7 @@ header{
 #results_display{
     background-color: cadetblue;
     border: solid black;
+    margin: 5px 25px 5px 25px;
 }
 
 #main_results{
@@ -87,6 +116,7 @@ aside{
 #activies_section{
     background-color: coral;
     border: solid black;
+    margin: 5px 25px 5px 25px;
 }
 
 #activies_section h1{
