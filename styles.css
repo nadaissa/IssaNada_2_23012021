@@ -40,23 +40,26 @@ header{
     justify-content: space-around;
 }
 
-#main_nav{
-    margin-right: 50px; 
-}
-
 nav ul{
     list-style-type: none;
     display: flex;
-    justify-content:left;
-    align-content: space-between;
-    padding-left: 0px;
-    
+    padding:0px;
+}
+
+nav li {
+    margin-right: 50px;
+}
+
+#sign_up{
+    margin-left: 20px;
+    padding-left: 10px;
+    padding-right: 5px;
 }
 /*delete border or all following rule when done*/
+
 #logo, #main_nav, #sign_up{
     border: solid blue 2px;
 }
-
 
 #search_area{
     background-color: coral;
