@@ -35,6 +35,12 @@ header{
     justify-content: space-between;
 }
 
+/*temporary display and dimensions for all imgs-->*/
+img{
+    width: 60px;
+    height: 40px ;
+}
+
 #nav_n_sign{
     display: flex;
     justify-content: space-around;
