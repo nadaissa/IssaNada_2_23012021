@@ -23,8 +23,18 @@ body, a{
 }
 
 /*add general styling for common elements here before header (classes)*/
-
-
+/*temporary display and dimensions for all imgs-->*/
+img{
+    width: 60px;
+    height: 40px ;
+}
+/*temporary colors for text and icons*/
+.color_blue{
+    color: blue;
+}
+.color_grey{
+    color: grey;
+}
 
 /*Header delete background color border after final styling*/
 header{
@@ -35,11 +45,6 @@ header{
     justify-content: space-between;
 }
 
-/*temporary display and dimensions for all imgs-->*/
-img{
-    width: 60px;
-    height: 40px ;
-}
 
 #nav_n_sign{
     display: flex;
