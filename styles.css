@@ -69,8 +69,7 @@ nav li {
 
 #sign_up{
     margin-left: 20px;
-    padding-left: 10px;
-    padding-right: 5px;
+    padding: 0 5px 0 10px ;
 }
 /*delete border or all following rule when done*/
 
@@ -82,11 +81,16 @@ nav li {
 #search_area{
     background-color: coral;
     border: solid black;
+    display: flex;
+    flex-direction: column;
     margin: 5px 25px 5px 25px;
+    padding: 0;
 }
 
-#search_header{
+#search_header h1, #search_header p{
     border: solid blue 2px;
+    padding: 2px;
+    margin: 0px;
 }
 
 #search_form{
