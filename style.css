@@ -15,7 +15,7 @@
     margin: auto;
 }
 
-body {
+body, button, input {
     font-family: 'Raleway', Arial, Helvetica, sans-serif;
     color: #312d2d;
     margin: 0px;
@@ -31,21 +31,18 @@ img{
 }
 
 h1{
-    font-size: 1em;
-    font-weight: bold;
+    font-size: 1.2em;
 }
 
 h2{
-    font-size: 1em ;
-    font-weight: bold;
+    font-size: 1.2em;
 }
 
 h3{
-    font-size: 0.8em;
-    font-weight: bold;
+    font-size: 0.9em;
 }
 p{
-    font-size: 0.8em;
+    font-size: 0.9em;
 }
 
 a{
@@ -55,10 +52,10 @@ a{
 }
 /*temporary colors for text and icons*/
 .color_blue{
-    color: blue;
+    color:#0065FC;
 }
 .color_grey{
-    color: grey;
+    color: #F2F2F2;
 }
 
 /*Header zone delete background color border after final styling*/
@@ -88,6 +85,7 @@ nav ul{
 
 nav li {
     margin-right: 50px;
+    font-size: 0.8em;
 }
 
 #sign_up{
@@ -118,8 +116,38 @@ nav li {
 
 #search_form{
     border: solid blue 2px;
+    display: flex;
+    padding: 10px 0 10px 0;
+}
+form{
+    border: solid black;
+    display: flex;
+    height: 35px;
+}
+form input, form button{
+    font-size: 0.8em;
+    font-weight: bold;
+    padding: 6px;
+    border: #F2F2F2 ;
 }
 
+#gps_icon{
+    background-color: #F2F2F2;
+    padding: 4px 8px 0 8px;
+    height: auto;
+    border-radius: 5px 0 0 5px;
+}
+
+form input{
+    border: 1.5px solid #F2F2F2;
+    padding-right: 1px;
+}
+
+form button{
+    color:white;
+    background-color: #0065FC;
+    border-radius: 0 5px 5px 0;
+}
 #search_filters{
     border: solid blue 2px;
 }
@@ -202,12 +230,4 @@ footer{
 
 
 /*media queries criterias*/
-/* 
-@media screen and (max-width: 600px)
-{
-    #nav_n_sign{
-        display: flex;
-        flex-direction: column;
-    }
-}
-*/
+
