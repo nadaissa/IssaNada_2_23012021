@@ -171,3 +171,16 @@ footer{
 #help_container{
     border: solid blueviolet 2px;
 }
+
+
+
+/*media queries criterias*/
+/* 
+@media screen and (max-width: 600px)
+{
+    #nav_n_sign{
+        display: flex;
+        flex-direction: column;
+    }
+}
+*/
