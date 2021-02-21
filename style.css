@@ -2,17 +2,10 @@
 {
     font-family: 'Raleway';
     src: url('fonts/raleway/Raleway-VariableFont_wght.ttf') format('truetype');
-    font-weight: normal;
     font-style: normal;
 }
 
 /*general body styling*/
-body, a{
-    font-family: raleway, Arial, Helvetica, sans-serif;
-    color: #312d2d;
-    margin: 0px;
-    padding: 0px;
-}
 
 /* main wr delete background color border after final styling*/
 #main_wrapper {
@@ -22,11 +15,43 @@ body, a{
     margin: auto;
 }
 
+body {
+    font-family: 'Raleway', Arial, Helvetica, sans-serif;
+    color: #312d2d;
+    margin: 0px;
+    padding: 0px;
+}
+
+
 /*add general styling for common elements here before header (classes)*/
 /*temporary display and dimensions for all imgs-->*/
 img{
     width: 60px;
     height: 40px ;
+}
+
+h1{
+    font-size: 1em;
+    font-weight: bold;
+}
+
+h2{
+    font-size: 1em ;
+    font-weight: bold;
+}
+
+h3{
+    font-size: 0.8em;
+    font-weight: bold;
+}
+p{
+    font-size: 0.8em;
+}
+
+a{
+    font-family: raleway, Arial, Helvetica, sans-serif;
+    color: #312d2d;
+    text-decoration: none;
 }
 /*temporary colors for text and icons*/
 .color_blue{
@@ -47,9 +72,7 @@ header{
 
 header img
 {
-    width: 75px;
-    padding: 0px;
-
+    width: 85px;
 }
 
 #nav_n_sign{
