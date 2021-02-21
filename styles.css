@@ -36,19 +36,25 @@ img{
     color: grey;
 }
 
-/*Header delete background color border after final styling*/
+/*Header zone delete background color border after final styling*/
 header{
-    background-color: cadetblue;
     border: solid black;
     margin: 5px 25px 5px 25px;
+    padding: 0px;
     display: flex;
     justify-content: space-between;
 }
 
+header img
+{
+    width: 75px;
+    padding: 0px;
+
+}
 
 #nav_n_sign{
     display: flex;
-    justify-content: space-around;
+    flex-direction: row-reverse;
 }
 
 nav ul{
@@ -72,6 +78,7 @@ nav li {
     border: solid blue 2px;
 }
 
+/*search zone*/
 #search_area{
     background-color: coral;
     border: solid black;
@@ -82,7 +89,7 @@ nav li {
     border: solid blue 2px;
 }
 
-#search_container{
+#search_form{
     border: solid blue 2px;
 }
 
@@ -92,21 +99,23 @@ nav li {
 #number_results{
     border: solid blue 2px;
 }
-#results_display{
+
+/*main content*/
+#lodging_display{
     background-color: cadetblue;
     border: solid black;
     margin: 5px 25px 5px 25px;
 }
 
-#main_results{
+#lodging_main{
     border: solid red 2px;
 }
 
-#results_container{
+#lodgings_container{
     border: solid red 2px;
 }
 
-.result_bubble{
+.lodging_bubble{
     border: solid red 2px;
 }
 
@@ -127,6 +136,7 @@ aside{
     border: solid blue 2px;
 }
 
+/*activities zone*/
 #activies_section{
     background-color: coral;
     border: solid black;
@@ -144,7 +154,7 @@ aside{
     border: solid blue 2px;
 }
 
-
+/*footer zone*/
 footer{
     background-color: cadetblue;
     border: solid black;

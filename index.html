@@ -14,18 +14,18 @@
     <!--header section:  logo + navigation elements-->
         <header>
             <div id="logo">
-                <p><img src="images/logo/Reservia@3x.png" alt="Logo Reservia"/></p>
+                <img src="images/logo/Reservia@3x.png" alt="Logo Reservia"/>
             </div>
             <div id="nav_n_sign">
+                <div id="sign_up">
+                    <p><a href="#" class="color_blue">S'inscrire</a></p>
+                </div>
                 <nav id="main_nav">
                     <ul>
                         <li><a href="#">Hébergements</a></li>
                         <li><a href="#">Activités</a></li>
                     </ul>
                 </nav>
-                <div id="sign_up">
-                    <p><a href="#" class="color_blue">S'inscrire</a></p>
-                </div>
             </div>
         </header>
 
@@ -37,9 +37,9 @@
                 <p>En plein centre ville ou en pleine nature</p>
             </div>
 
-            <div id="search_container">
-                <form id="main_form" method="post" action="xxx.php">
-                    <i class="fas fa-map-marker-alt"></i> <!--add fa-2x or other for size format?-->
+            <div id="search_form">
+                <form method="post" action="xxx.php">
+                    <i class="fas fa-map-marker-alt"></i>
                     <input type="search" placeholder="Rechercher.." value="Marseille, France">
                     <button type="submit">Rechercher</button>
                 </form>
@@ -61,76 +61,76 @@
         </section>
 
         <!--results section: h1 + article zone + aside zone -->
-        <section id="results_display">
-            <div id="main_results">
+        <section id="lodging_display">
+            <div id="lodging_main">
                 <h2>Hébergements à Marseille</h2>
-                <ul id="results_container">
-                    <li class="result_bubble">
-                        <a class="results_links" href="#">
-                            <div class="res_img_container">
-                                <img class="res_img" src="images/hebergements/1_xlarge/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="La Cannebière"/>
+                <ul id="lodgings_container">
+                    <li class="lodging_bubble">
+                        <a class="lodgings_links" href="#">
+                            <div class="lodg_img_container">
+                                <img class="lodg_img" src="images/hebergements/1_xlarge/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="La Cannebière"/>
                             </div>
-                            <div class="results_text">
+                            <div class="lodg_text">
                                 <h3>Auberge la Cannebière</h3>
                                 <p>Nuit à partir de 25€</p>
                                 <p class="color_blue"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><span class="color_grey"><i class="fas fa-star"></i></span></p>                                
                             </div>
                         </a>                       
                     </li>
-                    <li class="result_bubble">
-                        <a class="results_links" href="#">
-                            <div class="res_img_container">
-                                <img class="res_img" src="images/hebergements/1_xlarge/fred-kleber-gTbaxaVLvsg-unsplash.jpg" alt="H. Port"/>
+                    <li class="lodging_bubble">
+                        <a class="lodgings_links" href="#">
+                            <div class="lodg_img_container">
+                                <img class="lodg_img" src="images/hebergements/1_xlarge/fred-kleber-gTbaxaVLvsg-unsplash.jpg" alt="H. Port"/>
                             </div>
-                            <div class="results_text">
+                            <div class="lodg_text">
                                 <h3>Hôtel du port</h3>
                                 <p>Nuit à partir de 52€</p>
                                 <p class="color_blue"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></p>                                
                             </div>
                         </a>                       
                     </li>
-                    <li class="result_bubble">
-                        <a class="results_links" href="#">
-                            <div class="res_img_container">
-                                <img class="res_img" src="images/hebergements/1_xlarge/reisetopia-B8WIgxA_PFU-unsplash.jpg" alt="Mouettes"/>
+                    <li class="lodging_bubble">
+                        <a class="lodgings_links" href="#">
+                            <div class="lodg_img_container">
+                                <img class="lodg_img" src="images/hebergements/1_xlarge/reisetopia-B8WIgxA_PFU-unsplash.jpg" alt="Mouettes"/>
                             </div>
-                            <div class="results_text">
+                            <div class="lodg_text">
                                 <h3>Hôtel Les mouettes</h3>
                                 <p>Nuit à partir de 76€</p>
                                 <p class="color_blue"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><span class="color_grey"><i class="fas fa-star"></span></i></p>                                
                             </div>
                         </a>                       
                     </li>
-                    <li class="result_bubble">
-                        <a class="results_links" href="#">
-                            <div class="res_img_container">
-                                <img class="res_img" src="images/hebergements/1_xlarge/annie-spratt-Eg1qcIitAuA-unsplash.jpg" alt="H. Mer"/>
+                    <li class="lodging_bubble">
+                        <a class="lodgings_links" href="#">
+                            <div class="lodg_img_container">
+                                <img class="lodg_img" src="images/hebergements/1_xlarge/annie-spratt-Eg1qcIitAuA-unsplash.jpg" alt="H. Mer"/>
                             </div>
-                            <div class="results_text">
+                            <div class="lodg_text">
                                 <h3>Hôtel de la mer</h3>
                                 <p>Nuit à partir de 46€</p>
                                 <p class="color_blue"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><span class="color_grey"><i class="fas fa-star"></i><i class="fas fa-star"></i></span></p>                                
                             </div>
                         </a>                       
                     </li>
-                    <li class="result_bubble">
-                        <a class="results_links" href="#">
-                            <div class="res_img_container">
-                                <img class="res_img" src="images/hebergements/1_xlarge/nicate-lee-kT-ZyaiwBe0-unsplash.jpg" alt="Le Panier"/>
+                    <li class="lodging_bubble">
+                        <a class="lodgings_links" href="#">
+                            <div class="lodg_img_container">
+                                <img class="lodg_img" src="images/hebergements/1_xlarge/nicate-lee-kT-ZyaiwBe0-unsplash.jpg" alt="Le Panier"/>
                             </div>
-                            <div class="results_text">
+                            <div class="lodg_text">
                                 <h3>Auberge Le Panier</h3>
                                 <p>Nuit à partir de 23€</p>
                                 <p class="color_blue"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><span class="color_grey"><i class="fas fa-star"></i></span></p>                                
                             </div>
                         </a>                       
                     </li>
-                    <li class="result_bubble">
-                        <a class="results_links" href="#">
-                            <div class="res_img_container">
-                                <img class="res_img" src="images/hebergements/1_xlarge/febrian-zakaria-M6S1WvfW68A-unsplash.jpg" alt="Chez Amina"/>
+                    <li class="lodging_bubble">
+                        <a class="lodgings_links" href="#">
+                            <div class="lodg_img_container">
+                                <img class="lodg_img" src="images/hebergements/1_xlarge/febrian-zakaria-M6S1WvfW68A-unsplash.jpg" alt="Chez Amina"/>
                             </div>
-                            <div class="results_text">
+                            <div class="lodg_text">
                                 <h3>Hôtel chez Amina</h3>
                                 <p>Nuit à partir de 96€</p>
                                 <p class="color_blue"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></p>                                
