@@ -72,11 +72,6 @@ header img
     width: 85px;
 }
 
-#nav_n_sign{
-    display: flex;
-    flex-direction: row-reverse;
-}
-
 nav ul{
     list-style-type: none;
     display: flex;
@@ -91,6 +86,7 @@ nav li {
 #sign_up{
     margin-left: 20px;
     padding: 0 5px 0 10px ;
+    order: 3;
 }
 /*delete border or all following rule when done*/
 
@@ -231,3 +227,13 @@ footer{
 
 /*media queries criterias*/
 
+@media screen and (max-width: 600px) {
+    header{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    nav {
+        order: 3;
+    }
+}
