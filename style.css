@@ -9,7 +9,7 @@
 
 /* main wr delete background color border after final styling*/
 #main_wrapper {
-    background-color: burlywood;
+    background-color: white;
     border: solid black;
     width: auto;
     margin: auto;
@@ -146,7 +146,38 @@ form button{
 }
 #search_filters{
     border: solid blue 2px;
+    display: flex;
 }
+
+#search_filters h3 {
+    margin-right: 15px;
+}
+
+#filters_container {
+    border: solid black;
+    width: 650px;
+    padding:5px 0px 5px 0px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#filters_container button{
+    font-weight: bold;
+    background-color:white;
+    padding:7px 15px 7px 0px;
+    border-radius: 20px;
+    border: 1.5px solid #F2F2F2;
+}
+
+#filters_container span{
+    background-color: #DEEBFF;
+    margin-right: 15px;
+    border-radius: 20px;
+    border: 2px solid  #DEEBFF;
+    padding: 6.5px 8px 6.5px 8px;
+
+}
+
 #number_results{
     border: solid blue 2px;
 }
@@ -226,8 +257,9 @@ footer{
 
 
 /*media queries criterias*/
-
-@media screen and (max-width: 600px) {
+/*pour le moment tu as choisis ce breakpoint pour tester mais il faudrait faire deux breakpoints 
+1 pour tablettes et 1 pour telephone*/
+@media screen and (max-width: 750px) {
     header{
         display: flex;
         flex-wrap: wrap;
@@ -235,5 +267,13 @@ footer{
     
     nav {
         order: 3;
+    }
+
+    #search_filters {
+        flex-wrap: wrap;
+    }
+    #filters_container {
+        flex-wrap: wrap;
+        justify-content: flex-start;
     }
 }
