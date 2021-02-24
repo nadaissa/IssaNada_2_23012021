@@ -164,17 +164,17 @@ form button{
 #filters_container button{
     font-weight: bold;
     background-color:white;
-    padding:7px 15px 7px 0px;
+    padding-right: 15px;
     border-radius: 20px;
     border: 1.5px solid #F2F2F2;
 }
-
-#filters_container span{
+/*review styling some icones are bigger than others*/
+#filters_container i{
     background-color: #DEEBFF;
     margin-right: 15px;
     border-radius: 20px;
     border: 2px solid  #DEEBFF;
-    padding: 6.5px 8px 6.5px 8px;
+    padding: 6px 8px 6px 8px;
 
 }
 
