@@ -180,6 +180,19 @@ form button{
 
 #number_results{
     border: solid blue 2px;
+    font-size: 0.8em ;
+}
+
+#number_results i{
+    position: relative;
+    font-size: 0.7em;
+    border: 1px solid #F2F2F2;
+    border-radius: 20px;
+    padding: 2.5px 5px 2.5px 5px;
+    bottom: 1px;
+    margin-right: 5px;
+    text-align: center;
+
 }
 
 /*main content*/
@@ -257,8 +270,7 @@ footer{
 
 
 /*media queries criterias*/
-/*pour le moment tu as choisis ce breakpoint pour tester mais il faudrait faire deux breakpoints 
-1 pour tablettes et 1 pour telephone*/
+
 @media screen and (max-width: 750px) {
     header{
         display: flex;
