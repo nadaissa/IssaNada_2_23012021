@@ -279,6 +279,7 @@ footer{
     
     nav {
         order: 3;
+        flex-basis: 100%;
     }
 
     #search_filters {
