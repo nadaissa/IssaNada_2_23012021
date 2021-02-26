@@ -56,6 +56,7 @@ a{
     color: #F2F2F2;
 }
 
+
 /*Header zone -- delete background color border after final styling*/
 header{
     border: solid black;
@@ -127,9 +128,10 @@ form input, form button{
 
 #gps_icon{
     background-color: #F2F2F2;
-    padding: 4px 8px 0 8px;
+    padding: 6px 8px 0px 8px;
     height: auto;
     border-radius: 5px 0 0 5px;
+    font-size: medium;
 }
 
 form input{
@@ -162,6 +164,7 @@ form button{
 #filters_container button{
     font-weight: bold;
     background-color:white;
+    margin-left: 0px;
     padding-right: 15px;
     border-radius: 20px;
     border: 1.5px solid #F2F2F2;
@@ -169,10 +172,11 @@ form button{
 /*-- if necessary review icones' styling some are bigger than others*/
 #filters_container i{
     background-color: #DEEBFF;
-    margin-right: 15px;
+    margin-right: 10px;
     border-radius: 20px;
     border: 2px solid  #DEEBFF;
     padding: 6px 8px 6px 8px;
+    font-size: small;
 
 }
 
@@ -223,18 +227,26 @@ form button{
 .lodging_bubble{
     background-color: white;
     margin-bottom: 12px;
-    border: 3px solid white;
-    border-radius: 20px;
-    padding: 5px;
-    width: 200px;
-    height: 150px;
+    border: solid white;
+    border-radius: 15px;
+    padding: 2px;
+    width: 210px;
+    height: 170px;
 }
 
 .lodging_bubble img{
     width: 100%;
-    max-height: 90px;
-    border-radius: 20px 20px 0px 0px;
+    max-height: 95px;
+    border-radius: 15px 15px 0px 0px;
     object-fit: cover;
+}
+
+.lodg_text h3, .lodg_text p{
+    margin: 4px 2px 0px 8px;
+}
+
+.lodg_text i{
+    font-size: x-small;
 }
 
 #more_results{
@@ -257,8 +269,9 @@ aside{
 
 .pop_bubble img{
     width: 100%;
-    height: auto;
+    max-height: 90px;
     border-radius: 20px 20px 0px 0px;
+    object-fit: cover;
 }
 
 /*activities zone*/
@@ -280,9 +293,10 @@ aside{
 }
 
 .act_bubble img{
-width: 100%;
-height: auto;
-border-radius: 20px 20px 0px 0px;
+    width: 100%;
+    max-height: 90px;
+    border-radius: 20px 20px 0px 0px;
+    object-fit: cover;
 }
 
 /*footer zone*/
