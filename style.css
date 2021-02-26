@@ -71,20 +71,23 @@ header img
     width: 85px;
 }
 
-nav ul{
-    list-style-type: none;
+
+nav {
+    padding: 20px; 
     display: flex;
-    padding:0px;
+    justify-content: flex-end;
+    flex-grow: 3;
 }
 
-nav li {
-    margin-right: 50px;
+nav a {
+    border: solid black;
     font-size: 0.8em;
+    margin-left: 10px;
 }
+
 
 #sign_up{
-    margin-left: 20px;
-    padding: 0 5px 0 10px ;
+    text-align: end;
     order: 3;
 }
 /*-- delete this border rule when done*/
@@ -365,7 +368,15 @@ footer{
     nav {
         order: 3;
         flex-basis: 100%;
+        justify-content: space-around;
     }
+
+    nav a{
+        align-self: stretch;
+        
+    }
+
+
 
     #search_filters {
         flex-wrap: wrap;
