@@ -1,3 +1,4 @@
+/*font link*/
 @font-face
 {
     font-family: 'Raleway';
@@ -7,7 +8,7 @@
 
 /*general body styling*/
 
-/* main wr delete background color border after final styling*/
+/* -- delete mainwr background color border after final styling*/
 #main_wrapper {
     background-color: white;
     border: solid black;
@@ -23,8 +24,8 @@ body, button, input {
 }
 
 
-/*add general styling for common elements here before header (classes)*/
-/*temporary display and dimensions for all imgs-->*/
+/*general styling for common elements*/
+/*--temporary display and dimensions for all imgs*/
 img{
     width: 60px;
     height: 40px ;
@@ -50,7 +51,7 @@ a{
     color: #312d2d;
     text-decoration: none;
 }
-/*temporary colors for text and icons*/
+
 .color_blue{
     color:#0065FC;
 }
@@ -58,7 +59,7 @@ a{
     color: #F2F2F2;
 }
 
-/*Header zone delete background color border after final styling*/
+/*Header zone -- delete background color border after final styling*/
 header{
     border: solid black;
     margin: 5px 25px 5px 25px;
@@ -88,7 +89,7 @@ nav li {
     padding: 0 5px 0 10px ;
     order: 3;
 }
-/*delete border or all following rule when done*/
+/*-- delete this border rule when done*/
 
 #logo, #main_nav, #sign_up{
     border: solid blue 2px;
@@ -168,7 +169,7 @@ form button{
     border-radius: 20px;
     border: 1.5px solid #F2F2F2;
 }
-/*review styling some icones are bigger than others*/
+/*-- if necessary review icones' styling some are bigger than others*/
 #filters_container i{
     background-color: #DEEBFF;
     margin-right: 15px;
@@ -197,21 +198,32 @@ form button{
 
 /*main content*/
 #lodging_display{
-    background-color: cadetblue;
+    background-color: #5f9ea0;
     border: solid black;
     margin: 5px 25px 5px 25px;
+    display: flex;
 }
 
 #lodging_main{
     border: solid red 2px;
+    width: 70%;
 }
 
 #lodgings_container{
-    border: solid red 2px;
+    list-style-type: none;
+    border: solid black 2px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-flow: row wrap;
+    padding: 5px 15px 5px 5px;
+       
 }
 
 .lodging_bubble{
     border: solid red 2px;
+    width: 200px;
+    height: 150px;
+    
 }
 
 #more_results{
@@ -220,6 +232,7 @@ form button{
 
 aside{
     border: solid tomato 2px;
+    width: 30%;
 }
 #pop_header{
     border: solid blue 2px;
