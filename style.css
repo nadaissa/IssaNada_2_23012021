@@ -210,6 +210,7 @@ form button{
     background-color: #F2F2F2;
     width: 70%;
     padding: 5px 5px 0px 5px;
+    margin-right: 15px;
     
 }
 
@@ -227,11 +228,12 @@ form button{
 .lodging_bubble{
     background-color: white;
     margin-bottom: 12px;
+    margin-left: 5px;
     border: solid white;
     border-radius: 15px;
     padding: 2px;
-    width: 210px;
-    height: 170px;
+    width: 200px;
+    height: 160px;
 }
 
 .lodging_bubble img{
