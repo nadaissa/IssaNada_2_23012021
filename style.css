@@ -73,9 +73,10 @@ header img
 
 
 nav {
-    padding: 20px; 
-    display: flex;
-    justify-content: flex-end;
+    padding:10px; 
+    display: inline-block;
+    text-align: right;
+    vertical-align: middle;
     flex-grow: 3;
 }
 
@@ -368,11 +369,11 @@ footer{
     nav {
         order: 3;
         flex-basis: 100%;
-        justify-content: space-around;
+        border: solid black;
     }
 
     nav a{
-        align-self: stretch;
+        text-align: center;
         
     }
 
