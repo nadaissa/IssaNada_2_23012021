@@ -206,7 +206,6 @@ form button{
     background-color: #5f9ea0;
     border: solid black;
     margin: 5px 25px 5px 25px;
-    /*padding:;*/
     display: flex;
 }
 
@@ -270,8 +269,6 @@ aside{
     width: 35%;
     display: flex;
     flex-direction: column;
-    /*padding; ;
-    margin: ;*/
     
 }
 #pop_header{
@@ -296,7 +293,6 @@ aside{
     width: 300px;
     height: 100px;
     display: flex;
-    justify-content: space-between;
 }
 
 .pop_bubble img{
@@ -309,7 +305,7 @@ aside{
 
 .pop_text {
     display: inline-block;
-    align-self: flex-end;
+    vertical-align: top;
     width: 130px;
     height: 90px;
     border:solid black;
@@ -326,10 +322,8 @@ aside{
 }
 
 .pop_text p:last-of-type {
-
-}
-
-.pop_text i{
+    margin: 20px 0px 0px 5px;
+    vertical-align: bottom;
     font-size: x-small;
 }
 
@@ -408,6 +402,8 @@ footer{
 
     #lodging_display{
         flex-flow: column-reverse;
-
+    }
+    #lodging_main, aside {
+        width: 100%;
     }
 }
