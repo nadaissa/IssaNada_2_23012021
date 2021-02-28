@@ -296,6 +296,7 @@ aside{
     background-color: white;
     margin-bottom: 15px;
     margin-left: 0px;
+    padding: 4px;
     border-radius: 15px;
     width: 310px;
     height: 102px;
@@ -304,9 +305,8 @@ aside{
 
 .pop_bubble img{
     width: 100px;
-    height: 95px;
-    border-radius: 15px  0px 0px 15px;
-    border: solid white 3px;
+    height: 100px;
+    border-radius: 10px  0px 0px 10px;
     object-fit: cover;
 }
 
@@ -314,7 +314,7 @@ aside{
     display: inline-block;
     vertical-align: top;
     width: 130px;
-    height: 90px;
+    height: 95px;
     border:solid black;
     padding-right: 50px;
 }
@@ -329,8 +329,7 @@ aside{
 }
 
 .pop_text p:last-of-type {
-    margin: 20px 0px 0px 5px;
-    vertical-align: bottom;
+    margin: 28px 0px 0px 5px;
     font-size: x-small;
 }
 
