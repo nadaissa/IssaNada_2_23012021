@@ -231,6 +231,7 @@ form button{
     background-color: white;
     margin-bottom: 12px;
     margin-left: 5px;
+    box-shadow: 5px 5px 5px rgb(185, 183, 183);
     border-radius: 15px;
     padding: 5px;
     width: 190px;
@@ -252,6 +253,7 @@ form button{
     font-size: x-small;
 }
 
+/*delete this class once done*/
 #more_results{
     border: solid red 2px;
 }
@@ -290,6 +292,7 @@ aside{
     background-color: white;
     margin-bottom: 15px;
     margin-left: 0px;
+    box-shadow: 5px 5px 5px rgb(185, 183, 183);
     padding: 4px;
     border-radius: 15px;
     width: 310px;
