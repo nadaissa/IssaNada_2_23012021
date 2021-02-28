@@ -364,7 +364,7 @@ footer{
 }
 
 footer div{
-    
+    border: solid blueviolet;
     margin-left: 25px;
     flex-grow: 1;    
 }
@@ -422,4 +422,9 @@ footer li{
     #lodging_main, aside {
         width: 100%;
     }
+
+    footer {
+        flex-direction: column;
+    }
+
 }
