@@ -39,8 +39,8 @@ h2{
 h3{
     font-size: 0.9em;
 }
-p{
-    font-size: 0.9em;
+p, li{
+    font-size: 0.7em;
 }
 
 a{
@@ -186,12 +186,10 @@ form button{
 
 #number_results{
     border: solid blue 2px;
-    font-size: 0.8em ;
 }
 
 #number_results i{
     position: relative;
-    font-size: 0.7em;
     border: 1px solid #F2F2F2;
     border-radius: 20px;
     padding: 2.5px 5px 2.5px 5px;
@@ -248,10 +246,6 @@ form button{
 
 .lodg_text h3, .lodg_text p{
     margin: 4px 2px 0px 8px;
-}
-
-.lodg_text p:first-of-type {
-    font-size: 0.7em;
 }
 
 .lodg_text i{
@@ -361,21 +355,37 @@ aside{
 
 /*footer zone*/
 footer{
-    background-color: cadetblue;
     border: solid black;
+    background-color: #F2F2F2;
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    
 }
 
-#about_container{
-    border: solid blueviolet 2px;
+footer div{
+    
+    margin-left: 25px;
+    flex-grow: 1;    
 }
 
-#firm_container{
-    border: solid blueviolet 2px;
+footer div:last-of-type {
+    flex-grow: 2;  
 }
 
-#help_container{
-    border: solid blueviolet 2px;
+footer ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
 }
+
+footer li{
+    margin-top: 5px;
+}
+
+
+
+
 
 
 
