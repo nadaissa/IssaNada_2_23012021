@@ -233,17 +233,16 @@ form button{
     background-color: white;
     margin-bottom: 12px;
     margin-left: 5px;
-    border: solid white;
     border-radius: 15px;
-    padding: 2px;
+    padding: 5px;
     width: 190px;
-    height: 160px;
+    height: 165px;
 }
 
 .lodging_bubble img{
     width: 100%;
     max-height: 95px;
-    border-radius: 15px 15px 0px 0px;
+    border-radius: 10px 10px 0px 0px;
     object-fit: cover;
 }
 
