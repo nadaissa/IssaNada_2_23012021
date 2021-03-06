@@ -156,19 +156,17 @@ form input {
     display: flex;
 }
 
-#search_filters h3 {
-    margin-right: 15px;
-}
-
 #filters_container {
     border: solid black;
     width: 650px;
     padding:5px 0px 5px 0px;
+    margin-left: 15px;
     display: flex;
     justify-content: space-evenly;
 }
 
 #filters_container button{
+    font-size: 0.8em;
     font-weight: bold;
     background-color:white;
     margin-left: 0px;
@@ -176,7 +174,6 @@ form input {
     border-radius: 20px;
     border: 1.5px solid #F2F2F2;
 }
-/*-- if necessary review icones' styling some are bigger than others*/
 #filters_container i{
     background-color: #DEEBFF;
     margin-right: 10px;
@@ -184,7 +181,6 @@ form input {
     border: 2px solid  #DEEBFF;
     padding: 6px 8px 6px 8px;
     font-size: small;
-
 }
 
 #number_results{
@@ -192,13 +188,12 @@ form input {
 }
 
 #number_results i{
-    position: relative;
     border: 1px solid #F2F2F2;
     border-radius: 20px;
     padding: 2.5px 5px 2.5px 5px;
-    bottom: 1px;
     margin-right: 5px;
     text-align: center;
+    font-size: xx-small;
 
 }
 
