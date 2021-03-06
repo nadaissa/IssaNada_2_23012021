@@ -221,9 +221,9 @@ form button{
 #lodgings_container{
     border: solid black 2px;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: safe;
     flex-flow: row wrap;
-    padding: 0px 15px 0px 5px;
+    padding: 0px;
     margin: auto;
        
 }
@@ -231,7 +231,7 @@ form button{
 .lodging_bubble{
     background-color: white;
     margin-bottom: 12px;
-    margin-left: 5px;
+    margin-right: 10px;
     box-shadow: 5px 5px 5px rgb(185, 183, 183);
     border-radius: 15px;
     padding: 5px;
@@ -346,11 +346,11 @@ aside{
 #act_container{
     border: solid blue 2px;
     display: flex;
-    justify-content: space-between;
-    height: 500px;
+    height: 380px;
 }
 
 .grp_act_bubbles {
+    border:solid red;
     width: 50%;
     height: 100%;
     display: flex;
@@ -358,9 +358,11 @@ aside{
 }
 .act_bubble_vb{
     border: solid blue 2px;
-    width: 250px;
-    height: 400px;
+    width: 230px;
+    height: 340px;
     border-radius: 20px;
+    margin-right: 20px;
+    box-shadow: 5px 5px 5px rgb(185, 183, 183);
 }
 
 .act_bubble_vb img{
@@ -373,29 +375,34 @@ aside{
 
 .act_bubble_b{
     border: solid blue 2px;
-    width: 250px;
-    height: 290px;
+    width: 230px;
+    height: 175px;
     border-radius: 20px;
+    margin-right: 15px;
+    box-shadow: 5px 5px 5px rgb(185, 183, 183);
    
 }
 
 .act_bubble_b img{
     width: 100%;
-    max-height: 90px;
+    height: 80%;
     border-radius: 20px 20px 0px 0px;
     object-fit: cover;
 }
 
 .act_bubble_m{
     border: solid blue 2px;
-    width: 250px;
-    height: 240px;
+    width: 230px;
+    height: 155px;
     border-radius: 20px;
+    margin-top: 50px;
+    margin-left: 15px;
+    box-shadow: 5px 5px 5px rgb(185, 183, 183);
 }
 
 .act_bubble_m img{
     width: 100%;
-    max-height: 90px;
+    height: 80%;
     border-radius: 20px 20px 0px 0px;
     object-fit: cover;
    
@@ -403,30 +410,33 @@ aside{
 
 .act_bubble_s{
     border: solid blue 2px;
-    width: 250px;
-    height: 200px;
+    width: 230px;
+    height: 130px;
     border-radius: 20px;
+    margin-left: 15px;
+    box-shadow: 5px 5px 5px rgb(185, 183, 183);
 
 }
 
 .act_bubble_s img{
     width: 100%;
-    max-height: 90px;
+    height: 70%;
     border-radius: 20px 20px 0px 0px;
     object-fit: cover;
 }
 
 .act_bubble_vs{
     border: solid blue 2px;
-    width: 250px;
-    height: 150px;
+    width: 230px;
+    height: 120px;
     border-radius: 20px;
-
+    margin-top: 40px;
+    box-shadow: 5px 5px 5px rgb(185, 183, 183);
 }
 
 .act_bubble_vs img{
     width: 100%;
-    max-height: 90px;
+    height: 70%;
     border-radius: 20px 20px 0px 0px;
     object-fit: cover;
 }
