@@ -220,11 +220,9 @@ form button{
 #lodgings_container{
     border: solid black 2px;
     display: flex;
-    justify-content: safe;
     flex-flow: row wrap;
     padding: 0px;
     margin: auto;
-       
 }
 
 .lodging_bubble{
