@@ -74,9 +74,8 @@ header img
 
 nav {
     padding:10px; 
-    display: inline-block;
-    text-align: right;
-    vertical-align: middle;
+    display: flex;
+    justify-content: flex-end;
     flex-grow: 3;
 }
 
@@ -334,13 +333,17 @@ aside{
 
 
 /*activities zone*/
-#activies_section{
+#activities_section{
     border: solid black;
     margin: 5px 25px 5px 25px;
 }
 
-#activies_section h2{
+#activities_section h2{
     border: solid blue 2px;
+}
+
+#activities_section h3{
+    margin: 5px 0px 10px 12px;
 }
 
 #act_container{
@@ -507,8 +510,12 @@ footer li{
     #lodging_display{
         flex-flow: column-reverse;
     }
-    #lodging_main, aside {
+    #lodging_main, aside,  #act_container, .grp_act_bubbles{
         width: 100%;
+    }
+
+    #act_container, .grp_act_bubbles{
+        flex-flow: column nowrap;
     }
 
     footer {
