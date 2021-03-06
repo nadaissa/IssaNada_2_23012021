@@ -131,11 +131,23 @@ form input{
     padding-right: 1px;
 }
 
-form button{
+#srch_w{
     color:white;
     background-color: #0065FC;
     border-radius: 0 5px 5px 0;
 }
+
+#srch_i {
+    display: none;
+    color:white;
+    background-color: #0065FC;
+    border-radius: 5px;
+    padding: 0px 10px 0px 10px ;
+    height: auto;
+    margin-left: 0px;
+
+}
+
 #search_filters{
     border: solid blue 2px;
     display: flex;
@@ -486,6 +498,12 @@ footer li{
         
     }
 
+    #srch_w {
+        display: none;
+    }
+    #srch_i {
+        display: block;
+    }
     #search_filters {
         flex-wrap: wrap;
     }
