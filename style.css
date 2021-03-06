@@ -109,32 +109,34 @@ header a {
 form{
     border: solid black;
     display: flex;
-    height: 35px;
+    
 }
-form input, form button{
+form input {
     font-size: 0.8em;
     font-weight: bold;
-    padding: 6px;
+    padding: 6px 20px 6px 6px;
     border: #F2F2F2 ;
+
 }
 
 #gps_icon{
     background-color: #F2F2F2;
-    padding: 6px 8px 0px 8px;
+    padding: 5px 10px 0px 10px;
     height: auto;
     border-radius: 5px 0 0 5px;
     font-size: medium;
 }
 
-form input{
-    border: 1.5px solid #F2F2F2;
-    padding-right: 1px;
-}
+
 
 #srch_w{
+    font-size: 0.8em;
+    font-weight: bold;
     color:white;
     background-color: #0065FC;
     border-radius: 0 5px 5px 0;
+    padding: 6px;
+    border: 1.5px solid #F2F2F2;
 }
 
 #srch_i {
@@ -145,6 +147,7 @@ form input{
     padding: 0px 10px 0px 10px ;
     height: auto;
     margin-left: 0px;
+    border: 1.5px solid #F2F2F2;
 
 }
 
