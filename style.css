@@ -44,6 +44,12 @@ a{
 
 }
 
+a :visited{
+    color: blueviolet;
+}
+ a:hover {
+     color: #0065FC;
+ }
 .color_blue{
     color:#0065FC;
 }
@@ -54,11 +60,12 @@ a{
 
 /*Header zone*/
 header{
-    border: solid black;
+    
     margin: 5px 25px 5px 25px;
     padding: 0px;
     display: flex;
     justify-content: space-between;
+    align-content: stretch;
 }
 
 header img
@@ -71,19 +78,27 @@ nav {
     display: flex;
     justify-content: flex-end;
     flex-grow: 3;
-    margin-top: 12px;
 }
 
-header a {
+nav a {
     font-size: 0.8em;
     margin-left: 50px;
+    padding: 20px 20px 0px 20px;
+    
 }
 
 #sign_up{
     font-weight: bold;
+    font-size: 0.8em;
+    margin-left: 50px;
+    padding-top: 20px;
     text-align: end;
-    margin-top: 10px;
     order: 3;
+}
+
+nav a:active{
+    border-top: solid #0065FC;
+    color: #0065FC;
 }
 
 /*search zone*/
@@ -478,7 +493,12 @@ footer li{
 
     nav a{
         text-align: center;
-        
+    }
+
+    nav a:active{
+        border-top: none;
+        border-bottom: solid #0065FC;
+        color: #0065FC;
     }
 
     #srch_w {
