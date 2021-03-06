@@ -6,11 +6,10 @@
     font-style: normal;
 }
 
-/*general body styling*/
+/*general common elements styling*/
 
 /* -- delete mainwr background color border after final styling*/
 #main_wrapper {
-    background-color: white;
     border: solid black;
     width: auto;
     margin: auto;
@@ -22,11 +21,6 @@ body, button, input {
     margin: 0px;
     padding: 0px;
 }
-
-
-/*general styling for common elements*/
-/*--temporary display and dimensions for all imgs*/
-
 
 h1{
     font-size: 1.2em;
@@ -47,6 +41,7 @@ a{
     font-family: raleway, Arial, Helvetica, sans-serif;
     color: #312d2d;
     text-decoration: none;
+
 }
 
 .color_blue{
@@ -57,7 +52,7 @@ a{
 }
 
 
-/*Header zone -- delete background color border after final styling*/
+/*Header zone*/
 header{
     border: solid black;
     margin: 5px 25px 5px 25px;
@@ -73,32 +68,26 @@ header img
 
 
 nav {
-    padding:10px; 
     display: flex;
     justify-content: flex-end;
     flex-grow: 3;
+    margin-top: 12px;
 }
 
-nav a {
-    border: solid black;
+header a {
     font-size: 0.8em;
-    margin-left: 10px;
+    margin-left: 50px;
 }
-
 
 #sign_up{
+    font-weight: bold;
     text-align: end;
+    margin-top: 10px;
     order: 3;
-}
-/*-- delete this border rule when done*/
-
-#logo, #main_nav, #sign_up{
-    border: solid blue 2px;
 }
 
 /*search zone*/
 #search_area{
-    background-color: coral;
     border: solid black;
     display: flex;
     flex-direction: column;
