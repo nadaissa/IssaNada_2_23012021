@@ -11,7 +11,7 @@
 
 <body>
     <div id="main_wrapper">
-    <!--header section:  logo + navigation elements-->
+
         <header>
             <div id="logo">
                 <img src="images/logo/Reservia@3x.png" alt="Logo Reservia"/>
@@ -25,23 +25,20 @@
             </nav>
         </header>
 
-        <!--search section: h1 + p + search zone + filters zone + p number of result-->
         <section id="search_area">
             
-            <div id="search_header">
+            <div>
                 <h1>Trouvez votre hébergement pour des vacances de rêves</h1>
                 <p>En plein centre ville ou en pleine nature</p>
             </div>
 
-            <div id="search_form">
-                <form method="post" action="xxx.php">
+            <form method="post" action="xxx.php">
                     <span id="gps_icon"><i class="fas fa-map-marker-alt fa-xs"></i></span>
                     <input type="search" placeholder="Rechercher.." value="Marseille, France">
                     <button type="submit" id="srch_w">Rechercher</button>
                     <button type="submit" id="srch_i"><i class="fas fa-search"></i></button>
-                </form>
-            </div>
-            
+            </form>
+
             <div id="search_filters">
                 <h3>Filtres</h3>
                 <div id="filters_container">
@@ -51,9 +48,11 @@
                     <button><i class="fas fa-dog color_blue"></i>Animaux autorisés</button>
                 </div>
             </div>
-            <div id="number_results">
+
+            <div>
                 <p><i class="fas fa-info color_blue"></i>Plus de 500 logements sont disponibles dans cette ville</p>
             </div>
+
         </section>
 
         <!--results section: h1 + article zone + aside zone -->
