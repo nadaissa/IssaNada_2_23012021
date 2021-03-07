@@ -473,7 +473,7 @@ footer li{
 
 /*media queries criterias*/
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 450px) {
     header{
         display: flex;
         flex-wrap: wrap;
