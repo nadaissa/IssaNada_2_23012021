@@ -337,22 +337,23 @@ aside{
     border: solid blue 2px;
     height: 340px;
     display: flex;
+    justify-content: space-between;
     
 }
 
 .grp_act_bubbles {
     border:solid red;
-    width: 50%;
+    width: 49%;
     height: 100%;
     display: flex;
     flex-flow: column wrap;
     justify-content: center;
+    align-content: space-between;
 }
 .vb_act_bubble{
-    width: 225px;
+    width: 230px;
     height: 330px;
     border-radius: 20px;
-    margin-right: 20px;
     box-shadow: 5px 5px 5px rgb(185, 183, 183);
 }
 
@@ -365,10 +366,10 @@ aside{
 
 
 .b_act_bubble{
-    width: 225px;
+    width: 230px;
     height: 175px;
     border-radius: 20px;
-    margin-right: 15px;
+    margin-right: 12px;
     box-shadow: 5px 5px 5px rgb(185, 183, 183);
    
 }
@@ -381,11 +382,11 @@ aside{
 }
 
 .m_act_bubble{
-    width: 225px;
+    width: 230px;
     height: 160px;
     border-radius: 20px;
     margin-top: 37px;
-    margin-left: 15px;
+    margin-right: 3px;
     box-shadow: 5px 5px 5px rgb(185, 183, 183);
 }
 
@@ -398,10 +399,9 @@ aside{
 }
 
 .s_act_bubble{
-    width: 225px;
+    width: 230px;
     height: 135px;
     border-radius: 20px;
-    margin-left: 15px;
     box-shadow: 5px 5px 5px rgb(185, 183, 183);
 
 }
@@ -409,12 +409,13 @@ aside{
 .s_act_bubble img{
     width: 100%;
     height: 70%;
+    margin-right: 3px;
     border-radius: 20px 20px 0px 0px;
     object-fit: cover;
 }
 
 .vs_act_bubble{
-    width: 225px;
+    width: 230px;
     height: 120px;
     border-radius: 20px;
     margin-top: 35px;
