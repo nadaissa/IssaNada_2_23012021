@@ -23,15 +23,15 @@ body, button, input {
 }
 
 h1{
-    font-size: 1.2em;
+    font-size: 1em;
 }
 
 h2{
-    font-size: 1.2em;
+    font-size: 1em;
 }
 
 h3{
-    font-size: 0.9em;
+    font-size: 0.8em;
 }
 p, li{
     font-size: 0.7em;
@@ -201,6 +201,7 @@ form input {
 #lodging_display{
     border: solid black;
     margin: 5px 25px 5px 25px;
+    height: 450px;
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-between;
@@ -209,34 +210,33 @@ form input {
 #lodging_main{
     border-radius: 20px;
     background-color: #F2F2F2;
+    padding: 5px 15px 5px 15px;
     flex: 0 0 63%;
-    padding: 5px 5px 0px 10px;
-    display: flex;
-    flex-flow: column nowrap;
     
 }
 
-#lodgings_container{
-    border: solid black 2px;
+#lodgings_container{    
     display: flex;
-    flex-flow: row wrap;
     flex: 0 0 100%;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    
 }
 
 .lodging_bubble{
     background-color: white;
-    margin-bottom: 12px;
-    margin-right: 10px;
     box-shadow: 5px 5px 5px rgb(185, 183, 183);
     border-radius: 15px;
+    margin-right: 10px;
+    margin-bottom: 15px;
     padding: 5px;
-    width: 190px;
-    height: 165px;
+    width: 185px;
+    height: 145px;
 }
 
 .lodging_bubble img{
     width: 100%;
-    max-height: 95px;
+    max-height: 88px;
     border-radius: 10px 10px 0px 0px;
     object-fit: cover;
 }
@@ -246,7 +246,7 @@ form input {
 }
 
 .lodg_text i{
-    font-size: x-small;
+    font-size: xx-small;
 }
 
 /*delete this class once done*/
