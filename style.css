@@ -430,9 +430,8 @@ aside{
 
 /*footer zone*/
 footer{
-    border: solid black;
     background-color: #F2F2F2;
-    padding-bottom: 30px;
+    padding-bottom: 25px;
     display: flex;
     justify-content: space-between;
     
