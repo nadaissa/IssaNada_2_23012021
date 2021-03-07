@@ -215,9 +215,9 @@ form input {
     
 }
 
-#lodgings_container{    
+#lodgings_container{   
+    border: solid black; 
     display: flex;
-    flex: 0 0 100%;
     flex-flow: row wrap;
     justify-content: space-between;
     
