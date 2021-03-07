@@ -473,7 +473,8 @@ footer li{
 
 /*media queries criterias*/
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 480px) {
+
     header{
         display: flex;
         flex-wrap: wrap;
@@ -481,13 +482,18 @@ footer li{
     
     nav {
         order: 3;
-        flex-basis: 100%;
+        flex:0 0 100%;
+        display: flex;
+        justify-content: center;
         border: solid black;
     }
-
+    
     nav a{
-        text-align: center;
+    margin: 0px 5px 0px 5px;
+    padding: 5px;
+    border: solid black;
     }
+
 
     nav a:active{
         border-top: none;
@@ -518,8 +524,10 @@ footer li{
 
     #lodging_display{
         flex-flow: column-reverse;
+        height: auto;
     }
-    #lodging_main, aside,  #act_container, .grp_act_bubbles{
+
+    #lodging_main, aside{
         width: 100%;
     }
 
