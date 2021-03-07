@@ -60,7 +60,7 @@ a :visited{
 
 /*Header zone*/
 header{
-    
+    border: solid black;
     margin: 5px 25px 5px 25px;
     padding: 0px;
     display: flex;
@@ -175,6 +175,13 @@ form input {
     border-radius: 20px;
     height: 30px;
     border: 1px solid #F2F2F2;
+}
+
+#filters_container button:hover{
+    font-size: 0.9em;
+    color: #0065FC;
+    background-color: #F2F2F2;
+
 }
 #filters_container i{
     background-color: #DEEBFF;
