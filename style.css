@@ -52,7 +52,8 @@ a{
 a :visited{
     color: blueviolet;
 }
- a:hover {
+
+a:hover {
      color: #0065FC;
  }
 .color_blue{
@@ -479,6 +480,28 @@ footer li{
 
 @media screen and (max-width: 480px) {
 
+    /*common styling elements*/
+    
+    .common_margin{
+        margin: 5px 12px 5px 12px;
+    }
+    h1{
+        font-size: 1.2em;
+    }
+    
+    h2{
+        font-size: 1.1em;
+    }
+    
+    h3, #sing_up {
+        font-size: 0.9em;
+    }
+    p, li {
+        font-size: 0.8em;
+    }
+
+
+    /*header zone*/
     header{
         display: flex;
         flex-wrap: wrap;
@@ -486,24 +509,35 @@ footer li{
     
     nav {
         order: 3;
-        flex:0 0 100%;
-        display: flex;
+        flex: 0 0 100%;
         justify-content: space-between;
+        display: flex;
         border: solid black;
     }
-    
+    /*rework if possible positionning*/
     nav a{
+    font-size: 0.9em;
+    margin: 0px;
+    justify-self: stretch;
     
-    padding: 5px;
-    border: solid black;
     }
-
 
     nav a:active{
         border-top: none;
         border-bottom: solid #0065FC;
         color: #0065FC;
     }
+
+    /*search zone*/
+    
+    #search_area {
+        padding: 5px;
+    }
+    #search_area h1, #search_area p {
+        padding: 2px;
+        margin: 0px;
+    }
+
 
     #srch_w {
         display: none;
@@ -525,7 +559,7 @@ footer li{
         flex-wrap: wrap;
         justify-content: flex-start;
     }
-
+    /*lodgings zone*/
     #lodging_display{
         flex-flow: column-reverse;
         height: auto;
@@ -534,11 +568,12 @@ footer li{
     #lodging_main, aside{
         width: 100%;
     }
-
+    /*activities zone*/
     #act_container, .grp_act_bubbles{
         flex-flow: column nowrap;
     }
 
+    /*footer zone*/
     footer {
         flex-direction: column;
     }
