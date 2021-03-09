@@ -22,6 +22,11 @@ body, button, input {
     padding: 0px;
 }
 
+.common_margin{
+    margin: 5px 25px 5px 25px;
+}
+
+
 h1{
     font-size: 1em;
 }
@@ -61,7 +66,6 @@ a :visited{
 /*Header zone*/
 header{
     border: solid black;
-    margin: 5px 25px 5px 25px;
     padding: 0px;
     display: flex;
     justify-content: space-between;
@@ -106,7 +110,6 @@ nav a:active{
     border: solid black;
     display: flex;
     flex-direction: column;
-    margin: 5px 25px 5px 25px;
     padding: 0;
 }
 
@@ -207,7 +210,6 @@ form input {
 /*main content*/
 #lodging_display{
     border: solid black;
-    margin: 5px 25px 5px 25px;
     height: 450px;
     display: flex;
     flex-flow: row nowrap;
@@ -333,7 +335,6 @@ aside{
 /*activities zone*/
 #activities_section{
     border: solid black;
-    margin: 5px 25px 25px 25px;
 }
 
 #activities_section h3{
@@ -467,11 +468,14 @@ footer li{
 
 
 
+/*media queries for tabs*/
+@media screen and (max-width: 768px) {
 
 
+}
 
 
-/*media queries criterias*/
+/*media queries for mobile*/
 
 @media screen and (max-width: 480px) {
 
@@ -484,12 +488,12 @@ footer li{
         order: 3;
         flex:0 0 100%;
         display: flex;
-        justify-content: center;
+        justify-content: space-between;
         border: solid black;
     }
     
     nav a{
-    margin: 0px 5px 0px 5px;
+    
     padding: 5px;
     border: solid black;
     }
