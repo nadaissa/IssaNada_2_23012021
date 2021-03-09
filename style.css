@@ -130,7 +130,7 @@ form input {
     font-size: 0.7em;
     font-weight: bold;
     padding: 6px 20px 6px 6px;
-    border: #F2F2F2 ;
+    border: 1px solid #F2F2F2 ;
 
 }
 
@@ -150,9 +150,10 @@ form input {
     background-color: #0065FC;
     border-radius: 0 10px 10px 0;
     padding: 10px;
-    border: 1.5px solid #F2F2F2;
+    border: 1px solid #0065FC;
 }
 
+/*search icone to display only in mobile version*/
 #srch_i {
     display: none;
 
@@ -163,11 +164,12 @@ form input {
 }
 
 #filters_container {
-    width: 650px;
+    border: solid black;
     padding:5px 0px 5px 0px;
     margin-left: 15px;
+    flex: 0 0 60%;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 
 #filters_container button{
@@ -483,7 +485,7 @@ footer li{
     /*common styling elements*/
     
     .common_margin{
-        margin: 5px 12px 5px 12px;
+        margin: 8px 12px 8px 12px;
     }
     h1{
         font-size: 1.2em;
@@ -493,7 +495,7 @@ footer li{
         font-size: 1.1em;
     }
     
-    h3, #sing_up {
+    h3, #sign_up {
         font-size: 0.9em;
     }
     p, li {
@@ -510,14 +512,15 @@ footer li{
     nav {
         order: 3;
         flex: 0 0 100%;
-        justify-content: space-between;
+        justify-content: flex-start;
         display: flex;
         border: solid black;
     }
-    /*rework if possible positionning*/
+    /*rework positionning and add bottom borders try with display inline block or other*/
     nav a{
     font-size: 0.9em;
-    margin: 0px;
+    margin: 0px 0px 0px 10px;
+    padding-bottom: 10px;
     justify-self: stretch;
     
     }
@@ -531,14 +534,26 @@ footer li{
     /*search zone*/
     
     #search_area {
-        padding: 5px;
-    }
-    #search_area h1, #search_area p {
-        padding: 2px;
-        margin: 0px;
+        padding: 10px;
     }
 
+    form{
+        margin-top: 10px;
+        margin-bottom: 0px;
+        
+        
+    }
+    form input {
+        font-size: 0.9em;
+        padding: 10px 20px 10px 6px;
+        margin-right: -8px;
+    }
+    
+    .gps_icon{
+        padding-top: 12px;
 
+    }
+    
     #srch_w {
         display: none;
     }
@@ -547,18 +562,63 @@ footer li{
         color:white;
         background-color: #0065FC;
         border-radius: 10px;
-        padding: 0px 10px 0px 10px ;
+        padding: 0px 12px 0px 12px ;
         height: auto;
         margin-left: 0px;
-        border: 1.5px solid #F2F2F2;
+        border: 1px solid #0065FC;
     }
+   
     #search_filters {
-        flex-wrap: wrap;
+       flex-flow: column nowrap;
+
     }
     #filters_container {
+        margin-left: 0px;
         flex-wrap: wrap;
-        justify-content: flex-start;
+        
     }
+    /*for newt session work on filters containr's button's margin or align/justify self*/
+   /* #filters_container button{
+        font-size: 0.8em;
+        font-weight: bold;
+        background-color:white;
+        margin-left: 0px;
+        padding-right: 15px;
+        border-radius: 20px;
+        height: 30px;
+        border: 1px solid #F2F2F2;
+    }*/
+    
+    #filters_container button:hover{
+        font-size: 0.9em;
+        color: #0065FC;
+        background-color: #F2F2F2;
+    
+    }
+    #filters_container i{
+        background-color: #DEEBFF;
+        margin-right: 10px;
+        border-radius: 20px;
+        border: 2px solid  #DEEBFF;
+        padding: 6px 8px 6px 8px;
+        font-size: small;
+    }
+    
+    
+    .info_icon {
+        border: 1px solid #F2F2F2;
+        border-radius: 20px;
+        padding: 2.5px 5px 2.5px 5px;
+        margin-right: 5px;
+        text-align: center;
+        font-size: xx-small;
+    
+    }
+    
+
+
+    
+    
     /*lodgings zone*/
     #lodging_display{
         flex-flow: column-reverse;
