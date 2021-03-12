@@ -619,7 +619,6 @@ footer li{
         border-radius: 0px ;
         margin-bottom: 12px;
     }
-     
     
     .pop_text p:last-of-type {
         margin-top: 25px;
@@ -627,7 +626,8 @@ footer li{
 
     #lodging_main {
         width: auto;
-        background-color: white;
+        /*if not working change back-color to white simply*/
+        background-color: rgba(255, 255, 255, 0.945);
         border-radius: 0px;
     }
 
@@ -636,23 +636,44 @@ footer li{
     }
 
     .lodging_bubble{
-        margin-right: 0px;
+        margin-right: 5px;
         padding-bottom: 10px;
         width: auto;
     }       
 
     /*activities zone*/
     #act_container {
+        height: auto;
         flex-flow: column nowrap;
+
     } 
     
     .grp_act_bubbles{
+        width: auto;
+        height: auto;
         flex-flow: column nowrap;
+    }
+
+    .uni_act_b_size {
+        width: auto;
+        height: 150px;
+        margin: 0px 0px 20px 0px;
+    }
+
+    .uni_act_b_size img{
+        height: 70%;
     }
 
     /*footer zone*/
     footer {
         flex-direction: column;
+        height: auto;
+        padding-bottom: 120px;
     }
 
+    footer div{
+        border: solid blueviolet;
+        margin-left: 10px;
+        margin-right: 10px;
+    } 
 }
