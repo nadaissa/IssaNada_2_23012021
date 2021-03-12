@@ -272,6 +272,8 @@ aside{
     background-color: #F2F2F2;
     border-radius: 20px;
     flex: 0 0 30%;
+    padding-left: 12px;
+    padding-right: 12px;
     display: flex;
     flex-direction: column;
        
@@ -288,7 +290,7 @@ aside{
 }
 
 #pop_main{
-    border: solid blue 2px;
+    border: solid blue;
     padding: 0px 5px 0px 5px;
     margin-top: 0px;
     flex: 0 0 88%;
@@ -611,8 +613,18 @@ footer li{
     }
 
     #lodging_main, aside{
-        width: 100%;
+        width: auto;
     }
+
+    .pop_bubble{
+        width: 250px;
+    }
+    
+    .pop_text p:last-of-type {
+        margin-top: 25px;
+    }
+    
+
     /*activities zone*/
     #act_container, .grp_act_bubbles{
         flex-flow: column nowrap;
