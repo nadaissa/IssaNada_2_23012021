@@ -627,12 +627,26 @@ footer li{
 
     #lodging_main {
         width: auto;
+        background-color: white;
+        border-radius: 0px;
     }
 
-    
+    #lodgings_container{   
+        flex-flow: column nowrap;
+    }
+
+    .lodging_bubble{
+        margin-right: 0px;
+        padding-bottom: 10px;
+        width: auto;
+    }       
 
     /*activities zone*/
-    #act_container, .grp_act_bubbles{
+    #act_container {
+        flex-flow: column nowrap;
+    } 
+    
+    .grp_act_bubbles{
         flex-flow: column nowrap;
     }
 
