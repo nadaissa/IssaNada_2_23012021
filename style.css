@@ -608,21 +608,27 @@ footer li{
     
     /*lodgings zone*/
     #lodging_display{
+        margin-left: 0px;
+        margin-right: 0px;
         flex-flow: column-reverse;
         height: auto;
     }
 
-    #lodging_main, aside{
+    aside{
         width: auto;
+        border-radius: 0px ;
+        margin-bottom: 12px;
     }
-
-    .pop_bubble{
-        width: 250px;
-    }
+     
     
     .pop_text p:last-of-type {
         margin-top: 25px;
     }
+
+    #lodging_main {
+        width: auto;
+    }
+
     
 
     /*activities zone*/
