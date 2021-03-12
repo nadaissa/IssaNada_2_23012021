@@ -203,7 +203,7 @@ form input {
 #info_block {
     border: solid black;
     display: flex;
-    justify-items: space-between;
+    justify-content: flex-start;
     margin-top: 8px;
     margin-bottom: 8px;
 }
@@ -311,7 +311,7 @@ aside{
     width: 270px;
     height: 98px;
     display: flex;
-    flex: row nowrap;
+    flex-wrap: nowrap;
 }
 
 .pop_bubble img{
