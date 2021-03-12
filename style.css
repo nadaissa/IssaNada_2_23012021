@@ -521,16 +521,17 @@ footer li{
     nav {
         order: 3;
         flex: 0 0 100%;
-        justify-content: flex-start;
         display: flex;
-        border: solid black;
+        justify-content: stretch;
+        
     }
-    /*rework positionning and add bottom borders try with display inline block or other*/
+
     nav a{
-    font-size: 0.9em;
-    margin: 0px 0px 0px 10px;
-    padding-bottom: 10px;
-    justify-self: stretch;
+        border:solid black;
+        font-size: 0.9em;
+        margin: 0px;
+        padding: 20px 0px 10px 30px;
+        flex-grow: 1;
     
     }
 
