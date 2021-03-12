@@ -12,6 +12,7 @@
 #main_wrapper {
     border: solid black;
     width: auto;
+    height: auto;
     margin: auto;
 }
 
@@ -492,7 +493,6 @@ footer li{
 @media screen and (max-width: 480px) {
 
     /*common styling elements*/
-    
     .common_margin{
         margin: 8px 12px 8px 12px;
     }
