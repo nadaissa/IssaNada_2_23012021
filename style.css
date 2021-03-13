@@ -482,16 +482,103 @@ footer li{
 
 
 /*media queries for tabs*/
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 480px) and (max-width: 768px) {
 
 /*common styling elements*/
  #main_wrapper {
     width: auto;
 }
 
-.common_margin{
-    margin: 8px 12px 8px 12px;
+h1{
+    font-size: 0.9em;
 }
+
+h2{
+    font-size: 0.9em;
+}
+
+h3{
+    font-size: 0.7em;
+}
+p, li{
+    font-size: 0.6em;
+}
+
+
+/*Search zone*/
+
+#search_filters {
+    border: solid black;
+    width: 100%;
+}
+#filters_container {
+   flex-grow: 2;
+}
+
+/*Main content zone*/
+#lodging_display{
+    height: auto;
+    flex-flow: column-reverse nowrap;
+}
+
+aside{
+    background-color: #F2F2F2;
+    border-radius: 20px;
+    flex: 0 0 25%;
+       
+}
+
+#pop_header{
+    margin: 5px 20px 0px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;   
+}
+
+#pop_header i {
+    font-size: medium;
+}
+
+#pop_main{
+    border: solid blue;
+    padding: 0px;
+    flex-flow: row nowrap;
+    
+}
+.pop_bubble{
+    width: 200px;
+
+}
+.pop_text {
+    width: 100px;
+}
+
+.pop_text p:last-of-type {
+    margin-top: 20px;
+}
+.lodging_bubble{
+    width: 125px;
+    height: 110px;
+}
+
+.lodging_bubble img{
+    width: 100%;
+    max-height: 50px;
+}
+
+.lodg_text h3, .lodg_text p{
+    margin: 4px 2px 0px 8px;
+}
+
+.lodg_text i{
+    font-size: xx-small;
+}
+
+
+
+    
+
+
 
 }
 
