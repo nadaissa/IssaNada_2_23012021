@@ -11,7 +11,7 @@
 /* -- delete mainwr background color border after final styling*/
 #main_wrapper {
     border: solid black;
-    width: auto;
+    max-width: 1090px;
     height: auto;
     margin: auto;
 }
@@ -484,6 +484,14 @@ footer li{
 /*media queries for tabs*/
 @media screen and (max-width: 768px) {
 
+/*common styling elements*/
+ #main_wrapper {
+    width: auto;
+}
+
+.common_margin{
+    margin: 8px 12px 8px 12px;
+}
 
 }
 
@@ -493,6 +501,9 @@ footer li{
 @media screen and (max-width: 480px) {
 
     /*common styling elements*/
+    #main_wrapper {
+        width: auto;
+    }
     .common_margin{
         margin: 8px 12px 8px 12px;
     }
@@ -527,12 +538,11 @@ footer li{
     }
 
     nav a{
-        border:solid black;
         font-size: 0.9em;
         margin: 0px;
         padding: 20px 0px 10px 30px;
         flex-grow: 1;
-    
+        border-bottom: solid 2px #F2F2F2;
     }
 
     nav a:active{
@@ -549,19 +559,17 @@ footer li{
 
     form{
         margin-top: 10px;
-        margin-bottom: 0px;
-        
-        
+        margin-bottom: 0px;         
     }
+
     form input {
         font-size: 0.9em;
-        padding: 10px 20px 10px 6px;
+        padding: 10px 25px 10px 6px;
         margin-right: -8px;
     }
     
     .gps_icon{
         padding-top: 12px;
-
     }
     
     #srch_w {
@@ -584,8 +592,8 @@ footer li{
     }
     #filters_container {
         margin-left: 0px;
-        flex-wrap: wrap;
-        
+        justify-content: flex-start;
+        flex-wrap: wrap;     
         
     }
     
@@ -620,6 +628,16 @@ footer li{
         border-radius: 0px ;
         margin-bottom: 12px;
     }
+
+    #pop_main {
+        width: auto;
+        padding: 0px;
+    }
+
+    .pop_bubble {
+        width: 90%;
+    }
+
     
     .pop_text p:last-of-type {
         margin-top: 25px;
@@ -627,7 +645,6 @@ footer li{
 
     #lodging_main {
         width: auto;
-        /*if not working change back-color to white simply*/
         background-color: rgba(255, 255, 255, 0.945);
         border-radius: 0px;
     }
@@ -669,7 +686,6 @@ footer li{
     footer {
         flex-direction: column;
         height: auto;
-        padding-bottom: 120px;
     }
 
     footer div{
