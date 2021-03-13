@@ -440,6 +440,7 @@ aside{
 footer{
     background-color: #F2F2F2;
     padding-bottom: 25px;
+    margin-top: 20px;
     display: flex;
     justify-content: space-between;
     
