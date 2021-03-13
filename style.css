@@ -494,7 +494,7 @@ h1{
 }
 
 h2{
-    font-size: 0.9em;
+    font-size: 0.8em;
 }
 
 h3{
@@ -546,16 +546,17 @@ aside{
     
 }
 .pop_bubble{
-    width: 200px;
+    width: 210px;
 
+}
+.pop_bubble img{
+    width: 80px;
 }
 .pop_text {
-    width: 100px;
+    width: 120px;
 }
 
-.pop_text p:last-of-type {
-    margin-top: 20px;
-}
+
 .lodging_bubble{
     width: 125px;
     height: 110px;
