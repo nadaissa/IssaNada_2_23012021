@@ -509,6 +509,7 @@ footer li{
 aside {
     margin-bottom: 20px;
 }
+
 #pop_main{
     border: solid blue;
     padding: 0px;
@@ -526,11 +527,27 @@ aside {
 }
 
 
+/*Activities zone*/
+#act_container {
+    height: auto;
+    flex-flow: column nowrap;
+} 
 
+.grp_act_bubbles{
+    width: 100%;
+    height: auto;
+    flex-flow: row nowrap;
+}
 
-    
+.uni_act_b_size {
+    width: 200px;
+    height: 150px;
+    margin: 0px 15px 10px 15px;
+}
 
-
+.uni_act_b_size img{
+    height: 70%;
+}
 
 }
 
