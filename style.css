@@ -520,12 +520,13 @@ aside {
     width: 100%;
     height: auto;
     flex-flow: row nowrap;
+    justify-content: space-between;
 }
 
 .uni_act_b_size {
-    width: 200px;
+    width: 210px;
     height: 150px;
-    margin: 0px 15px 10px 15px;
+    margin: 0px 15px 15px 0px;
 }
 
 .uni_act_b_size img{
