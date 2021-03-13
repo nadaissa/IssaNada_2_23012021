@@ -67,7 +67,6 @@ a:hover {
 
 /*Header zone*/
 header{
-    border: solid black;
     padding: 0px;
     display: flex;
     justify-content: space-between;
@@ -109,7 +108,6 @@ nav a:active{
 
 /*search zone*/
 #search_area{
-    border: solid black;
     display: flex;
     flex-direction: column;
     padding: 0;
@@ -165,7 +163,6 @@ form input {
 }
 
 #filters_container {
-    border: solid black;
     padding:5px 0px 5px 0px;
     margin-left: 15px;
     flex: 0 0 60%;
@@ -201,7 +198,6 @@ form input {
 
 
 #info_block {
-    border: solid black;
     display: flex;
     justify-content: flex-start;
     margin-top: 8px;
@@ -220,7 +216,6 @@ form input {
 
 /*main content*/
 #lodging_display{
-    border: solid black;
     height: 450px;
     display: flex;
     flex-flow: row nowrap;
@@ -235,8 +230,7 @@ form input {
     
 }
 
-#lodgings_container{   
-    border: solid black; 
+#lodgings_container{    
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
@@ -291,7 +285,6 @@ aside{
 }
 
 #pop_main{
-    border: solid blue;
     padding: 0px 5px 0px 5px;
     margin-top: 0px;
     flex: 0 0 88%;
@@ -324,7 +317,6 @@ aside{
 .pop_text {
     width: 135px;
     height: 100%;
-    border:solid black;
     display: inline-block;
     vertical-align: top;
 
@@ -346,16 +338,11 @@ aside{
 
 
 /*activities zone*/
-#activities_section{
-    border: solid black;
-}
-
 #activities_section h3{
     margin: 5px 0px 10px 12px;
 }
 
 #act_container{
-    border: solid blue 2px;
     height: 340px;
     display: flex;
     justify-content: space-between;
@@ -363,7 +350,6 @@ aside{
 }
 
 .grp_act_bubbles {
-    border:solid red;
     width: 49%;
     height: 100%;
     display: flex;
@@ -460,7 +446,6 @@ footer{
 }
 
 footer div{
-    border: solid blueviolet;
     margin-left: 25px;
     flex-grow: 1;    
 }
@@ -492,7 +477,6 @@ footer li{
 /*Search zone*/
 
 #search_filters {
-    border: solid black;
     width: 100%;
 }
 #filters_container {
@@ -511,7 +495,6 @@ aside {
 }
 
 #pop_main{
-    border: solid blue;
     padding: 0px;
     flex-flow: row nowrap;  
 }
@@ -745,7 +728,6 @@ aside {
     }
 
     footer div{
-        border: solid blueviolet;
         margin-left: 10px;
         margin-right: 10px;
     } 
