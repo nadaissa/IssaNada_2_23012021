@@ -468,7 +468,7 @@ footer li{
 
 
 /*media queries for medium screens*/
-@media screen and (min-width:533px) and (max-width: 956px) {
+@media screen and (min-width:533px) and (max-width: 1030px) {
 
 /*common styling elements*/
  #main_wrapper {
@@ -526,7 +526,7 @@ aside {
     
 }
 #lodgings_container {
-    width: 90%;
+    width: 80%;
     margin: 0px;
     flex-flow: row wrap;
     justify-content: space-evenly;
@@ -537,6 +537,7 @@ aside {
 
 /*Activities zone*/
 #act_container {
+    padding-left: 0px;
     height: auto;
     flex-flow: column nowrap;
 } 
@@ -545,12 +546,12 @@ aside {
     width: 95%;
     height: auto;
     align-self: center;
-    flex-flow: row nowrap;
-    justify-content: space-between;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
 
 .uni_act_b_size {
-    width: 210px;
+    width: 320px;
     height: 150px;
     margin: 0px 15px 15px 0px;
 }
