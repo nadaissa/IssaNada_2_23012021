@@ -551,7 +551,7 @@ aside {
 }
 
 .uni_act_b_size {
-    width: 320px;
+    width: 310px;
     height: 150px;
     margin: 0px 15px 15px 0px;
 }
@@ -569,8 +569,9 @@ aside {
 
     /*common styling elements*/
     #main_wrapper {
-        width: auto;
+        width: 100%;
         overflow: hidden;
+    
     }
     .common_margin{
         margin: 8px 12px 8px 12px;
@@ -584,10 +585,10 @@ aside {
     }
     
     h3, #sign_up {
-        font-size: 0.9em;
+        font-size: 0.8em;
     }
     p, li {
-        font-size: 0.8em;
+        font-size: 0.7em;
     }
 
 
@@ -693,7 +694,7 @@ aside {
     }
 
     aside{
-        width: auto;
+        width: 100%;
         border-radius: 0px ;
         margin-bottom: 12px;
         
@@ -701,26 +702,13 @@ aside {
 
     #pop_main {
         width: auto;
-        padding: 10px;
+        padding: 5px;
         justify-content: space-evenly;
         align-items: center;
     }
 
-    .pop_bubble {
-        width: 80%;
-    }
-
-    .pop_bubble img{
-        width: 30%;
-    }
-
-    .pop_text {
-        width: 65%;
-    }
     
-    .pop_text p:last-of-type {
-        margin-top: 25px;
-    }
+    
 
     #lodging_main {
         width: auto;
@@ -738,7 +726,7 @@ aside {
     .lodging_bubble{
         margin-right: 5px;
         padding-bottom: 10px;
-        width: 80%;
+        width: 95%;
     }       
 
     /*activities zone*/
@@ -759,7 +747,7 @@ aside {
     }
 
     .uni_act_b_size {
-        width: 80%;
+        width: 95%;
         height: 165px;
         margin-top: 15px;
         margin-right: 0px;
