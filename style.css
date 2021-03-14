@@ -465,10 +465,110 @@ footer li{
     margin-top: 5px;
 }
 
+/*medi queries for laptops*/
+@media screen and (min-width: 920px) and (max-width: 1028px) {
+/*common styling elements*/
+    #main_wrapper {
+        width: auto;
+    }
+/*lodgings area*/
+    #lodging_display, #activities_section {
+        width: 95%;
+    }
 
+    .lodging_bubble {
+        width: 160px;
+
+    }
+
+    aside {
+        flex: 0 0 25%;
+    }
+
+    .pop_bubble {
+        width: 250px;
+    }
+
+/*activities area*/
+    .uni_act_b_size {
+        width: 210px;
+    }
+
+
+}
 
 /*media queries for tabs*/
-@media screen and (min-width: 480px) and (max-width: 768px) {
+
+@media screen and (min-width: 768px) and (max-width: 956px){
+    
+
+/*common styling elements*/
+ #main_wrapper {
+    width: auto;
+}
+
+/*Search zone*/
+
+#search_filters {
+    width: 100%;
+}
+#filters_container {
+   flex-grow: 2;
+}
+
+/*Main content zone*/
+#lodging_display{
+    height: auto;
+    flex-flow: column-reverse nowrap;
+    justify-content: space-between;
+}
+
+aside {
+    margin-bottom: 20px;
+}
+
+#pop_main{
+    padding: 0px;
+    flex-flow: row nowrap;  
+}
+.pop_bubble{
+    width: 210px;
+
+}
+.pop_bubble img{
+    width: 80px;
+}
+.pop_text {
+    width: 120px;
+}
+
+
+/*Activities zone*/
+#act_container {
+    height: auto;
+    flex-flow: column nowrap;
+} 
+
+.grp_act_bubbles{
+    width: 100%;
+    height: auto;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+
+.uni_act_b_size {
+    width: 210px;
+    height: 150px;
+    margin: 0px 15px 15px 0px;
+}
+
+.uni_act_b_size img{
+    height: 70%;
+}
+
+
+}
+@media screen and (min-width: 481px) and (max-width: 768px) {
 
 /*common styling elements*/
  #main_wrapper {
