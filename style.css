@@ -25,6 +25,7 @@ body, button, input {
 
 .common_margin{
     margin: 5px 25px 5px 25px;
+    width: 95%;
 }
 
 
@@ -165,7 +166,6 @@ form input {
 #filters_container {
     padding:5px 0px 5px 0px;
     margin-left: 15px;
-    flex: 0 0 60%;
     display: flex;
     justify-content: space-between;
 }
@@ -174,7 +174,8 @@ form input {
     font-size: 0.8em;
     font-weight: bold;
     background-color:white;
-    margin-left: 0px;
+    margin-top: 5px;
+    margin-right: 5px;
     padding-right: 15px;
     border-radius: 20px;
     height: 30px;
@@ -182,11 +183,10 @@ form input {
 }
 
 #filters_container button:hover{
-    font-size: 0.9em;
     color: #0065FC;
     background-color: #F2F2F2;
-
 }
+
 #filters_container i{
     background-color: #DEEBFF;
     margin-right: 10px;
@@ -216,7 +216,7 @@ form input {
 
 /*main content*/
 #lodging_display{
-    height: 450px;
+    
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-between;
@@ -225,7 +225,7 @@ form input {
 #lodging_main{
     border-radius: 20px;
     background-color: #F2F2F2;
-    padding: 5px 15px 5px 15px;
+    padding: 5px 0px 5px 15px;
     display: flex;
     flex-flow: column nowrap;
     flex: 0 0 63%;
@@ -235,8 +235,8 @@ form input {
 #lodgings_container{    
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-between;
-    
+    justify-content: space-evenly;
+    justify-self: center;   
 }
 
 .lodging_bubble{
@@ -292,7 +292,7 @@ aside{
     flex: 0 0 88%;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
     
 }
@@ -467,42 +467,8 @@ footer li{
     margin-top: 5px;
 }
 
-/*medi queries for laptops*/
-@media screen and (min-width: 956px) and (max-width: 1028px) {
-/*common styling elements*/
-    #main_wrapper {
-        width: auto;
-        overflow: hidden;
-    }
-/*lodgings area*/
-    #lodging_display, #activities_section {
-        width: 95%;
-    }
 
-    .lodging_bubble {
-        width: 160px;
-
-    }
-
-    aside {
-        flex: 0 0 25%;
-    }
-
-    .pop_bubble {
-        width: 250px;
-    }
-
-/*activities area*/
-    .uni_act_b_size {
-        width: 210px;
-    }
-
-
-}
-
-/*media queries for tabs*/
-
-
+/*media queries for medium screens*/
 @media screen and (min-width:533px) and (max-width: 956px) {
 
 /*common styling elements*/
@@ -520,6 +486,8 @@ footer li{
    flex-grow: 2;
    flex-wrap: wrap;
 }
+
+
 
 /*Main content zone*/
 #lodging_display{
@@ -595,7 +563,7 @@ aside {
 }
 
 
-/*media queries for mobile*/
+/*media queries for small screens*/
 
 @media screen and (max-width: 533px) {
 
