@@ -150,7 +150,7 @@ form input {
     background-color: #0065FC;
     border-radius: 0 10px 10px 0;
     padding: 10px;
-    border: 1px solid #0065FC;
+    border: 1px solid;
 }
 
 /*search icone to display only in mobile version*/
@@ -191,8 +191,7 @@ form input {
     background-color: #DEEBFF;
     margin-right: 10px;
     border-radius: 20px;
-    border: 2px solid  #DEEBFF;
-    padding: 6px 8px 6px 8px;
+    padding: 8px 9px 8px 9px;
     font-size: small;
 }
 
@@ -652,7 +651,7 @@ aside {
         padding: 0px 12px 0px 12px ;
         height: auto;
         margin-left: 0px;
-        border: 1px solid #0065FC;
+        border: 1px solid;
     }
    
     #search_filters {
