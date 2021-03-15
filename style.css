@@ -10,7 +10,6 @@
 
 /* -- delete mainwr background color border after final styling*/
 #main_wrapper {
-    border: solid black;
     max-width: 1090px;
     height: auto;
     margin: auto;
