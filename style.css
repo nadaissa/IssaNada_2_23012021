@@ -215,7 +215,6 @@ form input {
 
 /*main content*/
 #lodging_display{
-    
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-between;
@@ -569,9 +568,8 @@ aside {
 
     /*common styling elements*/
     #main_wrapper {
-        width: 100%;
+        width: auto;
         overflow: hidden;
-    
     }
     .common_margin{
         margin: 8px 12px 8px 12px;
@@ -624,7 +622,7 @@ aside {
     /*search zone*/
     
     #search_area {
-        padding: 10px;
+        padding-right: 10px;
     }
 
     form{
@@ -707,12 +705,9 @@ aside {
         align-items: center;
     }
 
-    
-    
-
     #lodging_main {
         width: auto;
-        background-color: rgba(255, 255, 255, 0.945);
+        background-color: transparent;
         border-radius: 0px;
     }
 
