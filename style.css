@@ -339,7 +339,7 @@ aside{
 
 /*activities zone*/
 #activities_section h3{
-    margin: 5px 0px 10px 12px;
+    margin: 10px 0px 10px 12px;
 }
 
 #act_container{
@@ -625,6 +625,16 @@ aside {
         padding-right: 10px;
     }
 
+    #search_area h1 {
+        margin: 10px 10px 10px 0px;
+       
+    }
+
+    #info_block p {
+        margin-right: 25px;
+        
+    }
+
     form{
         margin-top: 10px;
         margin-bottom: 0px;         
@@ -632,7 +642,7 @@ aside {
 
     form input {
         font-size: 0.9em;
-        padding: 10px 25px 10px 6px;
+        padding: 10px 35px 10px 15px;
         margin-right: -8px;
     }
     
@@ -728,6 +738,7 @@ aside {
     #activities_section {
         padding: 0px;
     }
+
     #act_container {
         height: auto;
         flex-flow: column nowrap;
