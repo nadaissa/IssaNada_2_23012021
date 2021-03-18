@@ -1,6 +1,5 @@
 /*font link*/
-@font-face
-{
+@font-face{
     font-family: 'Raleway';
     src: url('fonts/raleway/Raleway-VariableFont_wght.ttf') format('truetype');
     font-style: normal;
@@ -9,13 +8,13 @@
 /*general common elements styling*/
 
 /* -- delete mainwr background color border after final styling*/
-#main_wrapper {
+#main_wrapper{
     max-width: 1090px;
     height: auto;
     margin: auto;
 }
 
-body, button, input {
+body, button, input{
     font-family: 'Raleway', Arial, Helvetica, sans-serif;
     color: #312d2d;
     margin: 0px;
@@ -26,7 +25,6 @@ body, button, input {
     margin: 5px 25px 5px 25px;
     width: 95%;
 }
-
 
 h1{
     font-size: 1em;
@@ -39,6 +37,7 @@ h2{
 h3{
     font-size: 0.8em;
 }
+
 p, li{
     font-size: 0.7em;
 }
@@ -47,23 +46,23 @@ a{
     font-family: raleway, Arial, Helvetica, sans-serif;
     color: #312d2d;
     text-decoration: none;
-
 }
 
 a :visited{
     color: blueviolet;
 }
 
-a:hover {
+a:hover{
      color: #0065FC;
- }
+}
+
 .color_blue{
     color:#0065FC;
 }
+
 .color_grey{
     color: #F2F2F2;
 }
-
 
 /*Header zone*/
 header{
@@ -73,23 +72,20 @@ header{
     align-content: stretch;
 }
 
-header img
-{
+header img{
     width: 85px;
 }
 
-
-nav {
+nav{
     display: flex;
     justify-content: flex-end;
     flex-grow: 3;
 }
 
-nav a {
+nav a{
     font-size: 0.8em;
     margin-left: 50px;
     padding: 20px 20px 0px 20px;
-    
 }
 
 #sign_up{
@@ -113,24 +109,22 @@ nav a:active{
     padding: 0;
 }
 
-#search_area h1, #search_area p {
+#search_area h1, #search_area p{
     padding: 2px;
     margin: 0px;
 }
 
-
 form{
     padding: 10px 0 10px 0px;
     margin-bottom: 10px;
-    display: flex;
-    
+    display: flex;    
 }
-form input {
+
+form input{
     font-size: 0.7em;
     font-weight: bold;
     padding: 6px 20px 6px 6px;
     border: 1px solid #F2F2F2 ;
-
 }
 
 .gps_icon{
@@ -140,7 +134,6 @@ form input {
     border-radius: 10px 0 0 10px;
     font-size: small;
 }
-
 
 #srch_w{
     font-size: 0.7em;
@@ -155,7 +148,6 @@ form input {
 /*search icone to display only in mobile version*/
 #srch_i {
     display: none;
-
 }
 
 #search_filters{
@@ -194,13 +186,13 @@ form input {
     font-size: small;
 }
 
-
 #info_block {
     display: flex;
     justify-content: flex-start;
     margin-top: 8px;
     margin-bottom: 8px;
 }
+
 .info_icon {
     border: 1px solid #F2F2F2;
     border-radius: 20px;
@@ -208,9 +200,7 @@ form input {
     margin-right: 5px;
     text-align: center;
     font-size: xx-small;
-
 }
-
 
 /*main content*/
 #lodging_display{
@@ -225,8 +215,7 @@ form input {
     padding: 5px 0px 5px 15px;
     display: flex;
     flex-flow: column nowrap;
-    flex: 0 0 63%;
-    
+    flex: 0 0 63%;    
 }
 
 #lodgings_container{    
@@ -269,9 +258,9 @@ aside{
     padding-left: 12px;
     padding-right: 12px;
     display: flex;
-    flex-direction: column;
-       
+    flex-direction: column;       
 }
+
 #pop_header{
     margin: 5px 20px 0px 20px;
     display: flex;
@@ -290,9 +279,9 @@ aside{
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    align-items: center;
-    
+    align-items: center;    
 }
+
 .pop_bubble{
     background-color: white;
     margin-bottom: 15px;
@@ -318,7 +307,6 @@ aside{
     height: 100%;
     display: inline-block;
     vertical-align: top;
-
 }
 
 .pop_text h3 {
@@ -335,7 +323,6 @@ aside{
     font-size: xx-small;
 }
 
-
 /*activities zone*/
 #activities_section h3{
     margin: 10px 0px 10px 12px;
@@ -344,8 +331,7 @@ aside{
 #act_container{
     height: 340px;
     display: flex;
-    justify-content: space-between;
-    
+    justify-content: space-between;    
 }
 
 .grp_act_bubbles {
@@ -356,6 +342,7 @@ aside{
     justify-content: center;
     align-content: space-between;
 }
+
 .vb_act_bubble{
     width: 230px;
     height: 330px;
@@ -370,14 +357,12 @@ aside{
     object-fit: cover;
 }
 
-
 .b_act_bubble{
     width: 230px;
     height: 175px;
     border-radius: 20px;
     margin-right: 12px;
-    box-shadow: 5px 5px 5px rgb(185, 183, 183);
-   
+    box-shadow: 5px 5px 5px rgb(185, 183, 183);   
 }
 
 .b_act_bubble img{
@@ -401,7 +386,6 @@ aside{
     height: 80%;
     border-radius: 20px 20px 0px 0px;
     object-fit: cover;
-   
 }
 
 .s_act_bubble{
@@ -409,7 +393,6 @@ aside{
     height: 135px;
     border-radius: 20px;
     box-shadow: 5px 5px 5px rgb(185, 183, 183);
-
 }
 
 .s_act_bubble img{
@@ -442,7 +425,6 @@ footer{
     margin-top: 20px;
     display: flex;
     justify-content: space-between;
-    
 }
 
 footer div{
@@ -464,27 +446,24 @@ footer li{
     margin-top: 5px;
 }
 
-
 /*media queries for medium screens*/
-@media screen and (min-width:533px) and (max-width: 1035px) {
-
+@media screen and (min-width:533px) and (max-width: 1035px) 
+{
 /*common styling elements*/
- #main_wrapper {
+#main_wrapper {
     width: auto;
     overflow: hidden;
 }
 
 /*Search zone*/
-
 #search_filters {
     width: 90%;
 }
+
 #filters_container {
    flex-grow: 2;
    flex-wrap: wrap;
 }
-
-
 
 /*Main content zone*/
 #lodging_display{
@@ -507,12 +486,14 @@ aside {
     flex-flow: row wrap;
     justify-content: space-around; 
 }
+
 .pop_bubble{
     width: auto;
 }
 .pop_bubble img{
     width: 80px;
 }
+
 .pop_text {
     width: 120px;
 }
@@ -521,8 +502,8 @@ aside {
     width: 95%;
     padding-right: 0px;
     align-self: center;
-    
 }
+
 #lodgings_container {
     width: 80%;
     margin: 0px;
@@ -530,8 +511,6 @@ aside {
     justify-content: space-evenly;
     align-self: center;
 }
-
-
 
 /*Activities zone*/
 #act_container {
@@ -560,216 +539,208 @@ aside {
 
 }
 
-
 /*media queries for small screens*/
+@media screen and (max-width: 533px) 
+{
 
-@media screen and (max-width: 533px) {
+/*common styling elements*/
+#main_wrapper {
+    width: auto;
+    overflow: hidden;
+}
+.common_margin{
+    margin: 8px 12px 8px 12px;
+}
 
-    /*common styling elements*/
-    #main_wrapper {
-        width: auto;
-        overflow: hidden;
-    }
-    .common_margin{
-        margin: 8px 12px 8px 12px;
-    }
-    h1{
-        font-size: 1.2em;
-    }
+h1{
+    font-size: 1.2em;
+}
     
-    h2{
-        font-size: 1.1em;
-    }
+h2{
+    font-size: 1.1em;
+}
+
+h3, #sign_up {
+   font-size: 0.8em;
+}
+
+p, li {
+    font-size: 0.7em;
+}
+
+/*header zone*/
+header{
+    display: flex;
+    flex-wrap: wrap;
+}
     
-    h3, #sign_up {
-        font-size: 0.8em;
-    }
-    p, li {
-        font-size: 0.7em;
-    }
+nav {
+    order: 3;
+    flex: 0 0 100%;
+    display: flex;
+    justify-content: stretch;    
+}
 
+nav a{
+    font-size: 0.9em;
+    margin: 0px;
+    text-align: center;
+    padding-bottom: 10px;
+    flex-grow: 1;
+    border-bottom: solid 2px #F2F2F2;
+}
 
-    /*header zone*/
-    header{
-        display: flex;
-        flex-wrap: wrap;
-    }
+nav a:active{
+    border-top: none;
+    border-bottom: solid #0065FC;
+    color: #0065FC;
+}
+
+/*search zone*/
     
-    nav {
-        order: 3;
-        flex: 0 0 100%;
-        display: flex;
-        justify-content: stretch;
-        
-    }
+#search_area {
+    padding-right: 10px;
+}
 
-    nav a{
-        font-size: 0.9em;
-        margin: 0px;
-        text-align: center;
-        padding-bottom: 10px;
-        flex-grow: 1;
-        border-bottom: solid 2px #F2F2F2;
-    }
+#search_area h1 {
+    margin: 10px 10px 10px 0px;
+}
 
-    nav a:active{
-        border-top: none;
-        border-bottom: solid #0065FC;
-        color: #0065FC;
-    }
+#info_block p {
+    margin-right: 25px;
+}
 
-    /*search zone*/
+form{
+    margin-top: 10px;
+    margin-bottom: 0px;         
+}
+
+form input {
+    font-size: 0.9em;
+    padding: 10px 35px 10px 15px;
+    margin-right: -8px;
+}
     
-    #search_area {
-        padding-right: 10px;
-    }
-
-    #search_area h1 {
-        margin: 10px 10px 10px 0px;
-       
-    }
-
-    #info_block p {
-        margin-right: 25px;
-        
-    }
-
-    form{
-        margin-top: 10px;
-        margin-bottom: 0px;         
-    }
-
-    form input {
-        font-size: 0.9em;
-        padding: 10px 35px 10px 15px;
-        margin-right: -8px;
-    }
+.gps_icon{
+    padding-top: 12px;
+}
     
-    .gps_icon{
-        padding-top: 12px;
-    }
-    
-    #srch_w {
-        display: none;
-    }
-    #srch_i {
-        display: block;
-        color:white;
-        background-color: #0065FC;
-        border-radius: 10px;
-        padding: 0px 12px 0px 12px ;
-        height: auto;
-        margin-left: 0px;
-        border: 1px solid;
-    }
+#srch_w {
+    display: none;
+}
    
-    #search_filters {
-       flex-flow: column nowrap;
+#srch_i {
+    display: block;
+    color:white;
+    background-color: #0065FC;
+    border-radius: 10px;
+    padding: 0px 12px 0px 12px ;
+    height: auto;
+    margin-left: 0px;
+    border: 1px solid;
+}
+   
+#search_filters {
+    flex-flow: column nowrap;
+}
 
-    }
-    #filters_container {
-        margin-left: 0px;
-        justify-content: flex-start;
-        flex-wrap: wrap;     
-        
-    }
+#filters_container {
+    margin-left: 0px;
+    justify-content: flex-start;
+    flex-wrap: wrap;     
+}
     
-   #filters_container button{
-        font-weight: bold;
-        height: 35px;
-        margin-bottom: 12px;
-    }
+#filters_container button{
+    font-weight: bold;
+    height: 35px;
+    margin-bottom: 12px;
+}
     
-    #filters_container i{
-        font-size: medium;
-    }
+#filters_container i{
+    font-size: medium;
+}
     
-
-    .info_icon {
-        margin: 3px 5px 12px 0px;
-        padding: 2.5px 6px 2.5px 6px;
-    }
-
+.info_icon {
+    margin: 3px 5px 12px 0px;
+    padding: 2.5px 6px 2.5px 6px;
+}
     
+/*lodgings zone*/
+#lodging_display{
+    margin-left: 0px;
+    margin-right: 0px;
+    flex-flow: column-reverse;
+    height: auto;
+}
     
-    /*lodgings zone*/
-    #lodging_display{
-        margin-left: 0px;
-        margin-right: 0px;
-        flex-flow: column-reverse;
-        height: auto;
-    }
+aside{
+    width: 100%;
+    border-radius: 0px ;
+    margin-bottom: 12px;    
+}
 
-    aside{
-        width: 100%;
-        border-radius: 0px ;
-        margin-bottom: 12px;
-        
-    }
+#pop_main {
+    width: auto;
+    padding: 5px;
+    justify-content: space-evenly;
+    align-items: center;
+}
 
-    #pop_main {
-        width: auto;
-        padding: 5px;
-        justify-content: space-evenly;
-        align-items: center;
-    }
+#lodging_main {
+    width: auto;
+    background-color: transparent;
+    border-radius: 0px;
+}
 
-    #lodging_main {
-        width: auto;
-        background-color: transparent;
-        border-radius: 0px;
-    }
+#lodgings_container{   
+    flex-flow: column nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
 
-    #lodgings_container{   
-        flex-flow: column nowrap;
-        justify-content: space-evenly;
-        align-items: center;
+.lodging_bubble{
+    margin-right: 5px;
+    padding-bottom: 10px;
+    width: 95%;
+}       
 
-    }
+/*activities zone*/
+#activities_section {
+    padding: 0px;
+}
 
-    .lodging_bubble{
-        margin-right: 5px;
-        padding-bottom: 10px;
-        width: 95%;
-    }       
-
-    /*activities zone*/
-    #activities_section {
-        padding: 0px;
-    }
-
-    #act_container {
-        height: auto;
-        flex-flow: column nowrap;
-    } 
+#act_container {
+    height: auto;
+    flex-flow: column nowrap;
+} 
     
-    .grp_act_bubbles{
-        width: auto;
-        height: auto;
-        flex-flow: column nowrap;
-        justify-content: space-evenly;
-        align-items: center;
-    }
+.grp_act_bubbles{
+    width: auto;
+    height: auto;
+    flex-flow: column nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
 
-    .uni_act_b_size {
-        width: 95%;
-        height: 165px;
-        margin-top: 15px;
-        margin-right: 0px;
-    }
+.uni_act_b_size {
+    width: 95%;
+    height: 165px;
+    margin-top: 15px;
+    margin-right: 0px;
+}
 
-    .uni_act_b_size img{
-        height: 70%;
-    }
+.uni_act_b_size img{
+    height: 70%;
+}
 
-    /*footer zone*/
-    footer {
-        flex-direction: column;
-        height: auto;
-    }
+/*footer zone*/
+footer {
+    flex-direction: column;
+    height: auto;
+}
 
-    footer div{
-        margin-left: 10px;
-        margin-right: 10px;
-    } 
+footer div{
+    margin-left: 10px;
+    margin-right: 10px;
+} 
 }
