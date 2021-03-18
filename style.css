@@ -152,6 +152,7 @@ form input{
 
 #search_filters{
     display: flex;
+    align-items: center;
 }
 
 #filters_container {
