@@ -643,6 +643,7 @@ form input {
    
 #search_filters {
     flex-flow: column nowrap;
+    align-items: flex-start;
 }
 
 #filters_container {
