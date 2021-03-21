@@ -546,11 +546,13 @@ aside {
 
 /*common styling elements*/
 #main_wrapper {
-    width: auto;
+    border: solid greenyellow;
+    width: 100%;
+    padding: 0px;
     overflow: hidden;
 }
 .common_margin{
-    margin: 8px 12px 8px 12px;
+  margin: 8px 12px 8px 12px;
 }
 
 h1{
@@ -573,16 +575,17 @@ p, li {
 header{
     display: flex;
     flex-wrap: wrap;
+    
 }
     
-nav {
+nav {    
     order: 3;
     flex: 0 0 100%;
     display: flex;
-    justify-content: stretch;    
+    justify-content: stretch; 
 }
 
-nav a{
+nav a{    
     font-size: 0.9em;
     margin: 0px;
     text-align: center;
@@ -596,11 +599,19 @@ nav a:active{
     border-bottom: solid #0065FC;
     color: #0065FC;
 }
+#sign_up {
+    margin-right: 12px;
+}
+
+#logo {
+    margin-left: 13px;
+}
 
 /*search zone*/
     
 #search_area {
-    padding-right: 10px;
+    padding-left: 10px;
+    margin-left: 0px;
 }
 
 #search_area h1 {
@@ -669,6 +680,7 @@ form input {
     
 /*lodgings zone*/
 #lodging_display{
+    width: auto;
     margin-left: 0px;
     margin-right: 0px;
     flex-flow: column-reverse;
@@ -676,26 +688,37 @@ form input {
 }
     
 aside{
-    width: 100%;
+    /*width:100%;*/
     border-radius: 0px ;
     margin-bottom: 12px;    
+}
+
+#pop_header {
+    margin: 0px;
 }
 
 #pop_main {
     width: auto;
     padding: 5px;
+    align-self: center;
+    justify-self: center;
     justify-content: space-evenly;
     align-items: center;
 }
 
 #lodging_main {
     width: auto;
+    padding-left:12px;
+    padding-right: 12px;
     background-color: transparent;
     border-radius: 0px;
 }
 
 #lodgings_container{   
+    width: auto;
     flex-flow: column nowrap;
+    justify-self: center;
+    align-self: center;
     justify-content: space-evenly;
     align-items: center;
 }
@@ -703,29 +726,38 @@ aside{
 .lodging_bubble{
     margin-right: 5px;
     padding-bottom: 10px;
-    width: 95%;
+    width: 93%;
 }       
 
 /*activities zone*/
 #activities_section {
-    padding: 0px;
+    padding-right: 12px;
+    padding-left: 12px;
+    width: auto;
+    margin-left: 0px;
+    margin-right: 0px;
 }
 
 #act_container {
     height: auto;
+    justify-self: center;
+    align-self: center;
     flex-flow: column nowrap;
 } 
     
 .grp_act_bubbles{
+    padding-right: 0px;
     width: auto;
     height: auto;
+    justify-self: center;
+    align-self: center;
     flex-flow: column nowrap;
     justify-content: space-evenly;
     align-items: center;
 }
 
 .uni_act_b_size {
-    width: 95%;
+    width: 94%;
     height: 165px;
     margin-top: 15px;
     margin-right: 0px;
