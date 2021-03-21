@@ -546,14 +546,14 @@ aside {
 
 /*common styling elements*/
 #main_wrapper {
-    border: solid greenyellow;
-    width: 100%;
+    border: springgreen solid;
+    width: auto;
     padding: 0px;
     overflow: hidden;
 }
-.common_margin{
+/*.common_margin{
   margin: 8px 12px 8px 12px;
-}
+}*/
 
 h1{
     font-size: 1.2em;
@@ -575,7 +575,11 @@ p, li {
 header{
     display: flex;
     flex-wrap: wrap;
-    
+}
+
+.exception{
+   margin: 0px;
+   width: 100%;
 }
     
 nav {    
@@ -599,18 +603,21 @@ nav a:active{
     border-bottom: solid #0065FC;
     color: #0065FC;
 }
+
 #sign_up {
     margin-right: 12px;
+    margin-top: 8px;
 }
 
 #logo {
     margin-left: 13px;
+    margin-top: 8px;
 }
 
 /*search zone*/
     
 #search_area {
-    padding-left: 10px;
+    padding-left: 12px;
     margin-left: 0px;
 }
 
