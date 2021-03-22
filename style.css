@@ -695,12 +695,18 @@ form input {
     
 aside{
     /*width:100%;*/
+    padding-top: 15px;
+    padding-bottom: 8px;
     border-radius: 0px ;
     margin-bottom: 12px;    
 }
 
 #pop_header {
     margin: 0px;
+}
+
+#pop_header i{
+    margin-right: 5px;
 }
 
 #pop_main {
