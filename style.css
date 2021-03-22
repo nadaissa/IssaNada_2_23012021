@@ -616,12 +616,13 @@ nav a:active{
 /*search zone*/
     
 #search_area {
+    width: 95%;
     padding-left: 12px;
     margin-left: 0px;
 }
 
 #search_area h1 {
-    margin: 10px 10px 10px 0px;
+    /*margin: 10px 0px 10px 0px;*/
 }
 
 #info_block p {
@@ -629,6 +630,8 @@ nav a:active{
 }
 
 form{
+    padding: 0px;
+    width: 98%;
     margin-top: 10px;
     margin-bottom: 0px;         
 }
@@ -637,6 +640,7 @@ form input {
     font-size: 0.9em;
     padding: 10px 35px 10px 15px;
     margin-right: -8px;
+    width: 100%;
 }
     
 .gps_icon{
